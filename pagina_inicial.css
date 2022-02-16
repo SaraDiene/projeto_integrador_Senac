@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+  }
+
+ .centro{
+    text-align: center;
+    
+ }
+
+ .textojustificado{
+    text-align: justify;
+    font-family: nova;
+}
+
+
+/* estilização externa - fonte */
+
+@font-face{
+
+font-family: nova;
+src: url(nova.woff);
+
+}
+
+@font-face{
+
+font-family: diandra;
+src: url(diandra.woff);
+
+}
+
+.fonteh1{
+font-family: diandra;
+ }
+ 
+ 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: times, sans-serif;
+    background-color: #dfe0e4;
+}
+
+.bloco{
+    background: #ACAEA6;
+}
+.linha{
+
+    border-bottom: 3px solid white;
+}
+
+.titulo{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: times;
+    text-align: center;
+    font-size: 30px;
+}
+.texto{
+
+    padding:20px;
+    font-size: 20px;
+}
+
+.perfil{
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, sans-serif;
+}
+
+.ana_carolina ul{
+    text-align: center;
+}
+
+
+a{
+    color: white;
+    font-family: projeto;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:hover{
+    color: #00F3FF;
+    font-size: 160%;
+}
+body.home a#home,
+body.projetos a#projetos,
+body.desenvolvedores a#desenvolvedores,
+body.ana_carolina a#ana_carolina{
+	color: #00F3FF;
+}
+
+h5{
+    color: black;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: projeto;
+    src: url(fonte/Arista_Pro_Alternate.ttf) format("TrueType");
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: space-around;
+    background-color: #3c3d41;
+   
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+}
+
+#menu a{
+    display: block;
+    gap: 0.5rem;
+    margin-top: 40px;
+}
+
+#btn-mobile{
+    display: none;
+    color: white;
+}
+
+.titulo{
+    color: white;
+    margin-top: -140px;
+    margin-right: -120px;
+
+}
+
+@media(max-width: 600px){
+   
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top: 200px;
+        right: 0px;
+        background: #3c3d41;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
+        margin-bottom: 0px;
+    }
+
+    #menu_mobile{
+        display: none;
+    }
+
+    #nav.active #menu{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+       
+
+    }
+
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        
+    }
+    #hamburguer{
+        display: block;
+        width: 20px;
+        border-top: 2px solid;
+        color: white;
+    }
+    #hamburguer::after, #hamburguer::before{
+        content: " ";
+        display: block;
+        width: 20px;
+        height: 2px;
+        margin-top:5px;
+        background: currentColor;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburguer{
+        border-top-color: transparent;
+        
+    }
+    #nav.active #hamburguer::before{
+        transform: rotate(135deg);
+
+    }
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
+
+    }
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  /* Linha vertical linha do tempo */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+   
+  /* Seta lado esquerdo */
+  .left1::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 60px;
+    width: 0;
+    z-index: 1;
+    right: -30px;
+    border: medium solid white;
+    border-width: 30px 0 30px 30px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Seta lado direito */
+  .right1::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 60px;
+    width: 0;
+    z-index: 1;
+    left: -30px;
+    border: medium solid white;
+    border-width: 30px 30px 30px 0;
+    border-color: transparent white transparent transparent;
+  }
+ 
+  
+  /* Cards */
+  /*Card com a foto do site*/
+  .content2 { 
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  /* Media queries - Timeline responsiva 600px wide */
+  @media screen and (max-width: 768px) {
+  /* Place the timelime to the left */
+    .timeline::after {
+      left: 1px
+    }
+  
+  /* Full-width containers */
+    .container2 {
+      width: 80%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+  /* Make sure that all arrows are pointing leftwards */
+    .container2::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+  }
+  
+   /*rodape*/
+
+
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    font-size: 1.6em;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+footer {
+    font-family: sans-serif;
+    font-size: 0.6em;
+}
+#myFooter h2 a{
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    font-family: sans-serif;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+/*Botão retornar ao topo*/
+
+.topo{
+    position: fixed;
+    padding: 10px;
+    background-color: black;
+    right: 20px;
+    bottom: 50px;
+    font-size: 1.5 em;
+    text-align: center;
+    border-radius: 25px;
+  }
