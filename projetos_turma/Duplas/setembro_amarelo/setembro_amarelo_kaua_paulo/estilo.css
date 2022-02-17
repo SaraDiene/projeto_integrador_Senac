@@ -1,0 +1,613 @@
+/* Estrutura do site*/
+
+
+/*RESETANDO A MARGIN E O PADDING*/
+* {
+	margin:0;
+	padding:0;
+}
+
+/*DEFINIÇÕES PARA O TOPO E O CORPO*/
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: lightgrey url(imagens/fundo.gif) no-repeat;
+	background-position: center top 8px;
+}
+
+
+/*TAMANHO DO CONTAINER E ALINHAMENTO*/
+#container {
+	width: 90%;
+	margin: 0 auto;
+	min-width: 500px;
+	max-width: 1080px;
+}
+
+
+/*MAIS DEFINIÇÕES DO TOPO*/
+.logo {
+	text-indent: -3000px;
+	float: left;
+}
+
+
+/*Hover para os links "Leia mais e demais"*/
+a:hover {
+	color: #e50040;
+
+}
+
+/*=======================================================*/
+
+/*DEFINIÇOES DA LISTA NÃO ORDENADA*/
+ul {
+	margin-left: 30px;
+	padding: 0;
+	list-style: none;
+	clear: both;
+	box-shadow: 5px 5px 3px 3px darkgray;
+	border-radius: 5px;
+}
+
+#topo ul {
+	margin-top: -45px;
+	margin-left: 65px;
+	background: #FABE38;
+	float: left
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	font-size: 1.0em;
+	display: block;
+	padding: 0.1em 2.0em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: black;
+	background: url(imagens/divisor.png) no-repeat left center;
+	text-shadow: 1px 1px 1px lightgray;
+}
+
+/*RETIRANDO A DIVISÓRIA DO LINK "HOME" POR SER O PRIMEIRO*/
+#topo ul .primeiro a {
+	background: none;
+}
+
+/*DEFININDO A COR DA FONTE EM "HOVER" DA LISTA DO MENU ORDENADO*/
+#topo ul a:hover {
+	color: white;
+}
+
+/*=======================================================*/
+
+/*MARCADORES DAS PÁGINAS*/
+body.home #navegacao a#home,
+body.setembro-amarelo #navegacao a#setembro-amarelo, 
+body.motivacional #navegacao a#motivacional,
+body.grupos-apoio #navegacao a#grupos-apoio,
+body.cadastro #navegacao a#cadastro,
+body.sobrenos #navegacao a#sobrenos
+
+
+
+{
+	color: white;
+	background: #C98704;
+	cursor: text;
+}
+
+/*=======================================================*/
+
+
+/* ALINHAR O CONTEÚDO BEM PRÓXIMO DO TOPO */
+#conteudo {
+	margin-top: 80px;
+}
+
+/*PÁGINA HOME SEPARAR EM 2 COLUNAS E REPOSICIONAR */
+#primario {
+	width: 31%;
+	float: left;
+	margin: 0 0 20px 20px;
+
+}
+
+
+#secundario {
+	width: 31%;
+	float: left;
+ 	margin: 0 0 20px 13px;
+}
+
+
+#terciario {
+	width: 31%;
+	float: left;
+ 	margin: 0 0 20px 13px;
+}
+
+
+
+/*DEFINIÇÕES DAS PÁGINAS QUE CONTÉM 1 ÚNICA COLUNA*/
+#uma-coluna {
+	width: 95%;
+	float: left;
+	margin: 10px 0 20px 30px;
+}
+
+/*AVANÇA A MARGEM ESQUERDA DA LISTA NÃO ORDENADA NO CONTEÚDO DE 1 COLUNA*/
+#avanca{
+	margin-left: 80px;
+}
+
+/*DEFINIÇÃO DE POSICIONAMENTO E COR CINZA DA BORDA DA CAIXA DE CONTEÚDO*/
+.caixa {
+	margin: 10px 0;
+	padding: 5px;
+	background: #f3f3f3;
+	border-radius: 3%;
+}
+
+/*DEFINIÇÃO DA COR DE FUNDO E ALINHAMENTO DA CAIXA DE CONTEÚDO*/
+.caixa-conteudo {
+	/*background: white;*/
+	background: linear-gradient(to top, lightgrey, #fff);
+	padding: 5px;
+	margin-top: 5px;
+	border-radius: 3%;
+}
+
+/*FORMATANDO A FONTE DO PARÁGRAFO PARA AS CAIXAS DUPLAS DO INDEX.HTML*/
+#formata-paragrafo{
+font-size: 1em;
+text-align: justify;
+padding: 5px;
+}
+
+/*FORMATANDO IMAGENS DO CONTEÚDO PARA 2 COLUNAS*/
+img.imagem-principal-2col {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+	border-radius: 5%;
+
+}
+
+/*FORMATANDO IMAGENS DO CONTEÚDO PARA 1 COLUNA*/
+img.imagem-principal-1col {
+	width: 80%;
+	border: 3px solid #dfdfdf;
+	margin-left: 100px;
+	border-radius: 5%;
+
+}
+
+/*================================================================*/
+
+/* FORMATANDO CABEÇALHOS H e PARÁGRAFOS */
+
+h2 {
+	font-size: 1em;
+	text-align: center;
+	background: #727171;
+	color: #fff;
+	padding: 5px;
+	border-radius: 25%;
+}
+
+
+h1{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 1.8em;
+	padding: 3px;
+	margin-left: 80px;
+
+}
+
+/*PARA ALINHAR OS H1 DOS TÍTULOS DAS CAIXAS COM 1 COLUNA*/
+#arranja2{
+	margin: 85px;
+	font-size: 1.2em;
+	background: lightgrey;
+	border-radius: 10%;
+}
+
+
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+
+}
+
+/*FORMATANDO O FUNDO DOS TÍTULOS H3 NA PÁGINA INDEX */
+.formatah3 {
+	background: #C98704;
+	color: #fff;
+}
+
+/*FORMATANDO PARÁGRAFOS */
+p {
+	font-family: Chapaza-Regular;
+}
+
+/*FORMATANDO LI (LISTA NÃO ORDENADA)*/
+li{
+		font-family: Chapaza-Regular;
+}
+
+
+/*CENTRALIZA BOTÃO VOLTAR PARA HOME*/
+
+#centraliza-botao{
+	text-align: center;
+	
+}
+
+/*==================================================*/
+
+
+/*Rodape*/
+#container-rodape {
+	background: #FABE38;
+	padding: 20px;
+	width: 1000px;
+	margin: 0 auto;
+	border-radius: 25%;
+
+
+}
+
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+}
+
+/*================================================================*/
+
+/*JUSTIFICAR TEXTOS DENTRO DAS CAIXAS*/
+
+#arranja{
+	text-align: justify;
+	padding: 10px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+/*================================================================*/
+
+
+/*ESTILIZANDO A TABELA*/
+
+table{
+	width: 70%;
+	margin: 0 auto;
+	border-collapse: collapse; /*para grudar uma célula na outra, evitando separação entre elas*/
+	/*border-collapse: separate; /*para separar uma célula da outra*/
+}
+
+tr{
+	border: 2px solid darkgray;
+	padding: 7px;
+	font-family: Chapaza-Regular;
+	font-size: 1.3em;
+}
+
+td{
+	border: 2px solid darkgray;
+	padding: 7px;
+	font-family: Chapaza-Regular;
+	font-size: 0.8em;
+}
+
+
+td.borda{
+	border-top: 5px solid #999;
+	border-bottom: 5px solid #5E5D5D;
+	text-align:  center;
+	font-size: 90%;
+	background: #fabe38;
+	letter-spacing: 0.1em; /*distancia relativa entre caracteres de texto*/
+	color: black;
+}
+
+tr.alternada1{
+	background-color: #F3D897;
+}
+tr.alternada2{
+	background-color: #FCECC3;
+}
+
+tr:hover{
+	background-color: #E2BA53;
+}
+
+
+/*================================================================*/
+
+
+/* FORMATANDO O FORMULÁRIO DE CADASTRO*/
+
+
+
+label {
+	display: block; 
+	cursor: pointer;
+}
+
+
+/*ESTILIZANDO A CAIXA DE INPUT*/
+
+
+input {
+	padding: 5px;
+	width: 80px;
+	font-size: 0.9em;
+	background-color: #EBE9E9;
+	font-size: 1rem;
+	margin-bottom: 20px	; /*Para afastar um pouco dos elementos*/
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+
+/*Para tirar a "borda" do input nos formulários do navegador durante a entrada de dados*/
+textarea:focus, input:focus{
+	outline: none;
+}
+
+
+/*LARGURA DO CAMPO DA CAIXA DE INPUT PARA DIVS*/
+.digita input {
+
+	width: 80%; /*largura de 100%*/
+	text-align: left; /*todos os textos alinhados à esquerda*/
+	margin-top: 5px;
+}
+
+
+/*ESTILIZANDO O CONTAINER DE CADASTRO*/
+#cadastro-container{
+
+	background-color: #F3F0F0; 
+	width: 550px;
+	margin-left: auto; /*faz o elemento se centralizar na tela*/
+	margin-right: auto; /*faz o elemento se centralizar na tela*/
+	padding: 20px 35px;
+	margin-top: 2vh; /*Vh significa proporcional a tela do usuário:  10% da tela do usuário*/
+	border-radius: 10px; /*para arredondar o canto*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+
+
+/*Margens para afastar o formulário do Título e do final*/
+form{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+
+/*ESTILIZANDO OS LABELS DE IDENTIFICAÇAO DOS INPUTS*/
+label{
+	font-weight: bold;
+	font-size: .9rem;
+}
+
+
+
+/*CONFIGURANDO O BOTÃO SUBMIT*/
+/*Se não tem classe e nem ID para submit, pode utilizar com colchete*/
+input[type="submit"]{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	height: 40px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	margin-top: 30px;
+	color: #FFF;
+	background-color: #c98704; /*azul escuro*/
+	cursor: pointer; /*Para aparecer a mãozinha no botão*/
+}
+
+/*Adicionando efeito ao passar o mouse pelo botão SUBMIT*/
+input[type="submit"]:hover{
+	background-color: #4C4C4B;
+	transition: .5s; /*animação da seleção de "meio segundo"*/
+	}
+
+#largura-submit{
+	float:  right;
+	width: 30%;
+	text-align: right;
+}
+
+/*================================*/
+
+/*EFEITO DE TRANSIÇÃO DE FOTOS */
+
+@keyframes animacao{
+	from{
+		background: url(imagens/setembro-amarelo.png) no-repeat;
+		/*border-radius: 0px;*/
+		top: 0;
+		left: 0;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		-o-border-radius: 0px;
+
+	}
+
+	to{
+		background: url(imagens/sozinho.png) no-repeat;
+		/*border-radius: 300px;*/
+		top: 0;
+		left: 0;
+	}
+}
+
+#anima-foto{
+	position: relative; /*tem que colocar relativo para a imagem se mover*/
+	width: 743px;
+	height: 302px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	animation-name: animacao;
+	animation-duration: 8s;
+	animation-delay: 0s;
+	animation-iteration-count: 20;
+
+}
+
+
+/*==================================================================*/
+/*PARALLAX*/
+
+body, html{  /*coloquei o html para todo o html ocupar 100% da estrutura da página*/
+	margin: 0px;
+	font: 16px "Lato", sans-serif;
+	color: #777;
+/*	border: 2px solid red;*/
+	height: 100%; /*Para ocupar toda a altura da página*/
+}
+
+.conteudo{
+	color: #2E2E2E;
+	background-color: #FBDE3F;
+	padding: 50px 80px;
+	text-align: justify;
+	opacity: 0.7; /*para clarear a imagem*/
+}
+
+h4{
+	/*text-transform: uppercase;*/
+	color: #2E2E2E;
+	text-align: center;
+	font-size: 3.3em;
+	text-shadow: 5px 5px 4px white;
+	font-family: CreamCake;
+}
+
+#texto-parallax{
+	margin-top: 30px;
+	font-size: 1.3em;
+	text-align: center;
+	font-family: DelightCandles;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+	position: relative;/*para cada imagem ficar no seu local*/
+	height: 100%;
+	/*	border: 1px solid red;*/
+	background-repeat: no-repeat; /*para impedir que a imagem se repita lateralmente ou embaixo*/
+	opacity: 0.7; /*para clarear a imagem*/
+	background-size: cover; /*para estender e centralizar a imagem em toda a tela*/
+	background-attachment: fixed; /*para a imagem ficar fixa na página. É isso que ativa o Parallax*/
+}
+
+.caixa1{
+	background-image: url(imagens/saude-mental.png);
+}
+
+.caixa1:hover{
+	transition: all 5s;
+	background-image: url(imagens/imagem3.jpg);
+}
+
+.caixa2{
+	background-image: url(imagens/continuar.png);
+}
+
+
+.caixa2:hover{
+	transition: all 5s;
+	background-image: url(imagens/imagem2.jpg);
+}
+
+.caixa3{
+	background-image: url(imagens/superacao.png);
+}
+
+
+.caixa3:hover{
+	transition: all 5s;
+	background-image: url(imagens/imagem1.jpg);
+}
+
+.caixa4{
+	background-image: url(imagens/imagem4.jpeg);
+}
+
+.caixa4:hover{
+	transition: all 5s;
+	background-image: url(imagens/estender-a-mao.png);
+}
+
+.conteudo-titulo{
+	position: absolute; /*para ele sobrepor as imagens*/
+	left: 0;
+	text-align: center; /*alinhou verticalmente no centro*/
+	top: 45%;
+	width: 100%; /*para ocupar a parte central da página*/
+}
+
+.conteudo-titulo span.titulo{
+	color: #fff;
+	background-color: #111;
+	text-transform: uppercase;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+
+
+
+/*FONTES CUSTOMIZADAS PARA O PARALLAX*/
+		@font-face {
+			font-family: CreamCake;
+			src: url("CreamCake.woff");
+		}
+
+		@font-face {
+			font-family: DelightCandles;
+			src: url("DelightCandles.woff");
+		}
+
+/*DEMAIS FONTES*/
+		@font-face {
+			font-family: Chapaza-Regular;
+			src: url("Chapaza-Regular.woff");
+		}
+
+
+/*===========================================*/
+/*CENTRALIZANDO OS VÍDEOS*/
+iframe{
+display: block;
+margin: 0 auto;
+}
+
+/*==========================================*/
+/*FORMATANDO OS LINKS "LEIA MAIS" DA PÁGINA INDEX*/
+.caixa .caixa-conteudo a{
+	text-decoration: none;
+	font-size: 14px;
+	margin-left: 5px;
+}
