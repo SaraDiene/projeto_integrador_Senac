@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url(imagem/tarja.png) repeat-x top;
+}
+
+#topo{
+	background: url(imagem/pare.jpg) no-repeat left;
+	padding-top: 100px;
+}
+
+.texto{
+	text-decoration-color: white;
+	/*background: url(imagem/duas.jpg) no-repeat right;*/
+
+}
+
+
+ul{
+	list-style: none;
+}
+
+ul a{
+	text-decoration: none;
+	display: inline;
+	float: left;
+	padding: 30px;
+	font-size: 1.2em;
+	background: url(imagem/barra.png) repeat-y left center;
+	color: #fff;
+}
+
+a:hover{
+    color: #000;
+}
+
+h1{
+	text-align: right;
+}
