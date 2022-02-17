@@ -1,0 +1,170 @@
+body{
+        
+    background-color: #f9f9f9;
+}
+
+.container{
+    padding: 20px 0;
+    margin-bottom: 3px;
+}   
+
+header, .navbar{
+    background: url(imagem/backg.png);
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.navbar-brand{
+    padding: 0;
+}
+
+
+#navbar-links a{
+    font-size: 1.5em;
+    font-family: choco, sans-serif;
+}
+
+#navbar-links a:hover{
+    color: blue;
+}
+
+.navbar-expand-lg .navbar-nav .nav.link{
+    padding: 1rem .8rem;
+}
+
+
+@font-face {
+    font-family: choco;
+    src: url(fonte/Chocolate.otf) format("opentype"); 
+}
+
+@font-face {
+    font-family: internet;
+    src: url(fonte/Internet\ Friends.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: sundeep;
+    src: url(fonte/SunDeep.otf) format("opentype");
+}
+
+.fonte1{
+    font-family: sundeep, sans-serif;
+}
+
+.fonte2{
+    font-family: choco, sans-serif;
+    font-size: 1.2em;
+}
+
+.fonte3{
+    font-family: internet,sans-serif;
+}
+
+.bg-card{
+    background: url(imagem/fundo6.png);
+}
+
+.bg-banner{
+    background: url(imagem/fundo4.jpg) no-repeat;
+}
+.textocentral{
+    font-size: 1.0em;
+}
+
+.textodepoimento{
+    font-size: 0.7em;
+}
+
+.texto-card{
+    font-size: 0.8em;
+}
+
+.bg-footer{
+        background: #d98695;
+}
+
+#about-area{
+    background-color: #f9f9f9;
+}
+
+#sabia{
+    
+}
+
+.bg-link{
+    background-color: rgb(247, 242, 242);
+}
+
+.bg-exame{
+    background: url(imagem/fundo4.jpg);
+}
+
+/* Parallax*/
+body, html{
+	height: 100%;
+}
+
+#imagem1,#imagem2,#imagem3,#imagem4,#imagem5,#imagem6{
+	opacity: 0.5;
+	min-height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50%;
+	line-height: bold;
+	color: white;
+	font-size: 1.5em;
+}
+
+
+#imagem1{
+	background-image: url(imagem/pexels-anna-tarazevich-5482991.jpg);
+	
+}
+
+#imagem2{
+	background-image: url(imagem/pexels-klaus-nielsen-6303683.jpg);
+	
+}
+
+#imagem3{
+	background-image: url(imagem/pexels-michelle-leman-6798894.jpg);
+	
+}
+
+
+#imagem4{
+	background-image: url(imagem/pexels-michelle-leman-6798909.jpg);
+	
+}
+
+#imagem5{
+	background-image: url(imagem/pexels-michelle-leman-6798912.jpg);
+	
+
+}
+
+#imagem6{
+	background-image: url(imagem/pexels-valeria-boltneva-724610.jpg);
+	
+}
+
+.frases{
+	text-align: center;
+	font-size: 2.7em;
+	font-family: "Lucida Handwriting",cursive;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+.bg-parallax{
+    background:url(imagem/fundo4.jpg)
+}
