@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="estilo.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+		<title>Formulário de Pesquisa</title>
+	</head>
+
+	<body class="pesquisa">
+		<header id="bg"><!-- BACKGROUND --></header>
+
+		<div id="container"> <!-- CONTAINER DA PAGINA -->	
+			<nav> <!-- MENU -->
+				<div id="menu-toggle">
+					<img src="imagens/menu-toggle.png" alt="menu-toggle" id="img-toggle">
+				</div>
+				<div id="menu">
+					<ul>
+						<li id="h">
+							<img src="imagens/home.png" id="imgMenu"><a href="home.html">Home</a>
+						</li>
+						<li id="p">
+							<img src="imagens/pesquisa.png" id="imgMenu"><a href="pesquisa.html">Pesquisa</a>
+						</li>
+						<li id="d">
+							<img src="imagens/dados.png" id="imgMenu"><a href="dados.html">Dados</a>
+						</li>
+					</ul>
+				</div>
+			</nav> <!-- FIM DO MENU -->
+			
+			<section id="conteudo"> <!-- SECTION / FORMULARIO -->
+				<h1>Formulário de Pesquisa</h1>
+				<p>Este formulário é apenas para um levantamento de dados, não se preocupe, seus dados estão seguros aqui.</p>
+				<form>
+					<fieldset> <!-- TABELA SOBRE DADOS PESSOAIS -->
+						<legend> Dados Pessoais</legend>
+						<div>
+							<label for="nome">Nome:</label>
+							<input type="text" name="nome" id="nome" required="required" placeholder="Digite seu Nome.">
+							<input type="text" name="nome" id="nome" required="required" placeholder="Digite seu Sobrenome."> 
+						</div>
+						
+						<div>
+							<label for="idade"> Idade:</label>
+							<input type="text" name="nome" id="idade" required="required" placeholder="Digite sua Idade."> 
+						</div>
+						<div>
+							<label for="sexo">Sexo:</label>
+							<select name="sexo">
+								<option value="selecao"> Selecione</option>
+								<option value="M"> Masculino</option>
+								<option value="F"> Feminino</option>
+								<option value="O"> Outro</option>
+							</select> 
+						</div>
+						<div>
+							<label for="email">E-mail:</label>
+							<input type="email" name="email" placeholder="Digite seu E-mail.">
+						</div>
+					</fieldset> <!-- FIM -->
+					
+					<fieldset > <!-- ESTADOS DO PAÍS -->
+						<legend> Endereço</legend>
+						<div>
+							<label for="estado">Estado:</label>
+							<select>
+								<option value="">Selecione</option>
+								<option value="AC">Acre</option>
+								<option value="AL">Alagoas</option>
+								<option value="AP">Amapá</option>
+								<option value="AM">Amazonas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Ceará</option>
+								<option value="DF">Distrito Federal</option>
+								<option value="ES">Espírito Santo</option>
+								<option value="GO">Goiás</option>
+								<option value="MA">Maranhão</option>
+								<option value="MT">Mato Grosso</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="PA">Pará</option>
+								<option value="PB">Paraíba</option>
+								<option value="PR">Paraná</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piauí</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="RO">Rondônia</option>
+								<option value="RR">Roraima</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="SP">São Paulo</option>
+								<option value="SE">Sergipe</option>
+								<option value="TO">Tocantins</option>
+							</select> 
+						</div>
+						<div>
+							<label for="cidade"> Cidade:</label>
+							<input name="Cidade" type="text"> 
+						</div>
+					</fieldset>	<!-- FIM -->
+
+					<fieldset> <!-- HABILITAÇÃO -->
+						<legend> Tipo de Habilitação</legend>
+						<div id="cnh">
+							<legend for="habilitacao">Habilitação:</legend>
+								<input type="checkbox" name="acc" id="acc"> ACC <br>
+								<input type="checkbox" name="a" id="a"> A <br>
+								<input type="checkbox" name="b" id="b"> B <br>
+								<input type="checkbox" name="c" id="c"> C <br>
+								<input type="checkbox" name="d" id="d"> D <br>
+								<input type="checkbox" name="n" id="nao-possui"> Não possui. <br>
+
+							<!-- <select name="habilitacao">
+								<option value="selecao"> Selecione</option>
+								<option value="ACC"> ACC</option>
+								<option value="A"> A</option>
+								<option value="B"> B</option>
+								<option value="C"> C</option>
+								<option value="D"> D</option>
+								<option value="N"> Não Possui</option>
+							</select>  -->	
+						</div>
+					</fieldset> <!-- FIM -->
+
+					<fieldset> <!-- BEBIDA ALCOOLICA -->
+						<legend> Questionário</legend>
+						<div>
+							<label for="bebe"> Você faz uso de Bebida Alcoolica?</label>
+							<select name="bebe">
+								<option value="s"> Sim</option>
+								<option value="n"> Não</option>
+							</select>
+						</div>
+						<div>
+							<label for="anos"> Se sim, há quantos anos?</label>
+							<p><select name="anos">
+									<option value="3"> Há mais de 3 anos</option>
+									<option value="entre"> Entre 7 e 12 anos</option>
+									<option value="20"> Há mais de 20 anos</option>
+								</select>
+							</p><br>
+						</div>
+					</fieldset> <!-- FIM -->
+				</form> <!-- FINAL DA SECTION / FORMULARIO -->
+
+				<div id="divBotao"> <!-- BOTÃO -->
+					<button id="enviar">Enviar Formulário</button>
+				</div>
+			</section>
+		</div> <!-- FIM DO CONTAINER DA PAGINA -->
+	
+		<footer> <!-- RODAPÉ -->
+			<div id="rodape"><span>Todos os direitos reservados &copy;</span></div>
+			<div id="rodape">Desenvolvido por: Tamires e Giácomo</div>
+		</footer>
+	</body>
+</html>

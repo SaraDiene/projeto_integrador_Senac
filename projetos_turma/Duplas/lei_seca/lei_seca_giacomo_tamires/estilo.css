@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Quicksand, Oswald;
+}
+
+#bg {
+    background-image: url(imagens/bg2.jpg);
+    height: 240px;
+}
+
+#ico1 {
+    position: absolute;
+    width: 150px;
+    top: 20px;
+    right: 1300px;
+}
+/* 
+#ico2 {
+    width: 160px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+} */
+
+#ico3 {
+    width: 500px;
+    position: absolute;
+    top: 8px;
+    right: 240px;
+}
+
+#container {
+    background: linear-gradient(to bottom, #e5e5e5, #fff);
+}
+/* MENU */
+#imgMenu {    
+    width: 17px;
+    height: 14px;
+}
+
+nav {
+    border-bottom: 5px solid rgb(190, 0, 0);
+    background: linear-gradient(to bottom, #333, #222);
+    height: 50px;
+}
+
+#menu {
+    display: block;
+    margin: auto;
+    width: 402px;
+    font-family: Quicksand, Oswald;
+    font-weight: 100;
+}
+
+#img-toggle {
+    padding: 5px;
+    display: block;
+}
+
+#menu ul li {
+    border-left: black 2px solid;
+    border-right: black 2px solid;
+    text-align: center;
+    width: 130px;
+    height: 50px;
+    background: linear-gradient(to bottom, #333, #222);
+    line-height: 50px;
+    float: left;
+    list-style: none;
+}
+
+#menu a {
+    padding-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu ul li:hover {
+    background: linear-gradient(to bottom, rgb(255, 16, 16), rgb(190, 0, 0));
+}
+
+#menu-toggle {
+    display: none;
+    background: linear-gradient(to bottom, #333, #222);
+    height: 50px;
+    float: left;
+    width: 100%;
+    border-bottom: 5px solid rgb(190, 0, 0);
+}
+
+#img-toggle {
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+/* FIM DO MENU */
+/* CONTAINER / CONTEUDO DA PAGINA */
+
+section#conteudo {
+    border-bottom: 5px solid rgb(190, 0, 0);
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 0 20px;
+    font-size: 1.3em;
+}
+/* CONTEUDO COM TITULO E PAGRAFO */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 30px 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 2em;
+}
+/* POSICIONAMENTO DAS 3 DIVS DE SECTION */
+#primeiro {
+    width: 420px;
+    float: left;
+}
+
+#segundo {
+    width: 420px;
+    float: right;
+}
+
+#terceiro {
+    clear: both;
+}
+
+#img {
+    width: 100%;
+}
+
+/* RODAPE DA PAGINA */
+footer {
+    clear: both;
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+#rodape {
+    margin: auto;
+    width: 900px;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* #whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+} */
+/*  */
+/* CSS DO FORMULARIO DE PESQUISA E TABELA */
+
+fieldset {
+    margin: 1em 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    font-size: 0.8em;
+}
+
+#obs {
+    font-size: 15px;
+    font-style: italic;
+}
+
+select {
+    height: 30px;
+    width: 200px;
+    font-size: 0.8em;
+}
+
+table{
+	border-collapse: separate;
+    margin: auto;
+}
+
+tr, td{
+	border: none ;
+	padding: 7px;
+	background: #F5F5F5;
+}
+
+.nome-tabela{
+	border: none ;
+	padding: 7px;
+	background: rgb(2, 111, 184);
+	color: rgb(255, 255, 255);
+}
+td.borda{
+	background: #ffffff;
+}
+td.titulo{
+	border-top: 5px solid #999;
+	border-bottom: 5px solid #111;
+	background: #F8F8FF;
+}
+
+.numero{
+	text-align: right;
+}
+
+td:hover{
+	background-color: #B0E0E6;
+}
+
+#frame {
+    text-align: center;
+}
+
+#divBotao {
+    text-align: center;
+}
+
+#cng input {
+    font-weight: 900;
+}
+
+#enviar {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    font-size: 1em;
+    color: #fff;
+    background: rgb(190, 0, 0);
+    border: none;
+}
+
+#enviar:hover {
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+}
+/* FIM DO FORMULARIO E DAS TABELAS */
+
+body.home nav ul li#h,
+body.pesquisa nav ul li#p,
+body.dados nav ul li#d {
+    background: linear-gradient(to bottom, rgb(255, 16, 16), rgb(190, 0, 0));
+}
+
+a {
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(2, 111, 184);
+}
+
+/* MEDIA PARA DIMENSIONAR A TELA E O CONTEUDO */
+@media (max-width: 900px) {
+    #rodape {
+        width: 100%;
+        text-align: center;
+    }
+    #primeiro, #segundo, #terceiro, #img {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #bg, #menu {
+        display: none;
+    }
+    #menu-toggle {
+        display: block;
+    }
+}
