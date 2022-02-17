@@ -1,0 +1,27 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    background: lightgoldenrodyellow;
+}
+
+input{
+    display: block;
+}
+
+label{
+    display: block;
+    margin: 2px;
+    padding: 2px;
+}
+
+form{
+    width: 480px;
+    margin: 0 auto;
+}
+legend{
+    text-transform: uppercase;
+}
+
+fieldset{
+    background:rgb(247, 196, 145)
+}

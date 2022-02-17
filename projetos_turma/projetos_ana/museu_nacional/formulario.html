@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+
+
+    </header>
+
+    <nav>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                    <label for="nome">Nome</label>
+                        <input type="text" placeholder="Digite seu nome" autofocus required>
+                    <label for="data">Data de Nascimento</label>
+                        <input type="date" required>
+                    <label for="email">E-mail</label>
+                        <input type="email" required placeholder="seunome@gmail.com">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+                    <label for="rua">Rua</label>
+                    <input type="text" required>
+                    <label for="numero">Número</label>
+                    <input type="number" required>
+                    <label for="complemento">Complemento</label>
+                    <input type="text">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" required>
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="">
+                        <option value="mg">Minas Gerais</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="rj">Rio de Janeiro</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+
+                <legend>Dados pagamento</legend>
+                    <label for="cartao">Número cartão</label>
+                        <input type="number"placeholder="Digite o número do cartão" required>
+                    <label for="nome">Nome</label>
+                        <input type="text" required placeholder="Nome impresso no cartão">
+                    <label for="cvc">Código segurança</label>
+                        <input type="number"required placeholder="Código CVC">
+                </fieldset>
+            
+
+            <input type="submit" value="ENVIAR">
+        </form>
+    </nav>
+    
+</body>
+</html>
