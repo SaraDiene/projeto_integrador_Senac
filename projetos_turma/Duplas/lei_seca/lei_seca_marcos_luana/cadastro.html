@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Registre-se</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body class="cadastro">
+	<div id="container"><!--inicio container-->
+		<div id="fundo">
+			<div id="topo"><!--inicio topo-->
+				<div id="logo"><!--inicio logoo-->
+					<h1 class="logo">Se dirigir nao beba</h1>
+
+						<div id="nav"><!--inicio navagacao-->
+							<ul>
+								<li><a id="home" href="index.html">Home</a></li>
+								<li><a id="mapa" href="mapa.html">Mapa de Acidentes</a></li>
+								<li><a id="cadastro" href="cadastro.html">Cadastre-se</a></li>
+								<li><a id="depoimentos" href="depoimentos.html">Depoimentos</a></li>
+							</ul>
+						</div><!--fim navagacao-->
+				</div><!--fim logo-->
+			</div>
+		</div><!--fim topo-->
+		<div style="clear: both;"></div>
+
+		<div id="conteudo"><!--inicio conteudo-->
+			<h2>Seja um motorista consciente, cadastre-se conosco:</h2>
+			<p>Ao cadastrar, você se tornará membro do site, poderá nos ajudar com dicas referentes as estradas brasileiras e motivar mais motoristas a se tornarem um motorista consciente.</p>
+			<p><b>ATENÇÃO:</b> ao final do cadastro você receberá dentro de alguns dias em sua casa um adesivo do movimento <b><i>"Motorista Consciente"!</i></b></p>
+			<p>PRATIQUE ESSA AÇÃO!!</p>
+
+			<h3>Realize agora seu cadastro:</h3>
+			<form method="get" action="envio.php">
+				<fieldset>
+
+					<legend>Informações Pessoais:</legend>
+					<div>
+					<label>Nome:</label>
+				    <input type="text" name="nome" placeholder="Digite seu nome completo">
+				    </div>
+				    <div>
+				    <label>Sexo:</label>
+				    <input type="radio" id="Masculino" name="genero" value="M">Masculino
+     				<input type="radio" id="Feminino" name="genero" value="f">Feminino
+     				<input type="radio" id="Não-informado" name="genero" value="N">Não Informado
+				    
+				    </div>
+				    <div>
+				    <label>CPF:</label>
+				    <input type="text" name="cpf" placeholder="digite seu CPF aqui">
+				    </div>
+				    <div>
+				    <label>E-mail:</label>
+			    	<input type="e-mail" name="email" placeholder="Digite seu e-mail">
+			    	</div>
+			    </fieldset>
+				 <fieldset>   
+				    <legend>Endereço:</legend>
+				    <div>
+					    <label>Logradouro:</label>
+					    <input type="text" name="rua" placeholder="Rua">
+				    </div>
+				    <div>
+					    <label>Numero::</label>
+					    <input type="text" name="numero" placeholder="Numero da residencia">
+				    </div>
+				    <div>
+					    <label>Complemento:</label>
+					    <input type="text" name="complemento" placeholder="Complemento">
+				    </div>
+				    <div>
+					    <label>Bairro:</label>
+					    <input type="text" name="bairro" placeholder="Bairro">
+				    </div>
+				    <div>
+					    <label>CEP:</label>
+					    <input type="text" name="cep" placeholder="CEP">
+				    </div>
+				    <div>
+					    <label>Cidade:</label>
+					    <input type="text" name="city" placeholder="Nome da Cidade">
+			    	</div>
+			    </fieldset>
+
+			    <fieldset>
+				    <legend>Habilitação e Transito:</legend>
+				    <div>
+					    <label>Categoria de Habilitação:</label>
+					    <input type="checkbox" id="CategoriaA" name="CATEGORIA" value="A"> A<br>
+     					<input type="checkbox" id="CategoriaB" name="CATEGORIA" value="B"> B<br>
+     					<input type="checkbox" id="CategoriaC" name="CATEGORIA" value="C"> C<br>
+     					<input type="checkbox" id="CategoriaD" name="CATEGORIA" value="D"> D<br>
+     					<input type="checkbox" id="CategoriaE" name="CATEGORIA" value="E"> E<br>
+				   	</div>
+			   		<div>
+				   		<label>Faz uso de bebida alcoolica:</label>
+					    <input type="radio" id="usodebebida" name="bebe" value="S"> Sim<br>
+     					<input type="radio" id="usodebebida" name="bebe" value="N"> Não
+				    </div>
+				    <div>
+					    <label>Há quantos anos:</label>
+					    <input type="radio" id="anosDeUsoDeBebida" name="bebida" value="1"> Não faço uso! <br>
+     					<input type="radio" id="anosDeUsoDeBebida" name="bebida" value="2"> Há mais de três anos<br>
+     					<input type="radio" id="anosDeUsoDeBebida" name="bebida" value="3"> Entre 7 e 12 anos<br>
+     					<input type="radio" id="anosDeUsoDeBebida" name="bebida" value="4"> Há mais de 20 anos
+				    </div>
+			   </fieldset>
+
+			    <input class="botaoform" type="submit" name="enviar" value="Cadastrar"><br><br><br> 
+			</form>
+
+
+		</div><!--fim conteudo-->
+		<div style="clear: both;"></div>
+
+		<div id="rodape">
+
+			<div id="desenvolvedores">
+				<a href="index.html"><img src="imagem/logo1.jpg" height="100"></a>
+					<ul>
+					&copy;Site desenvolvido por:
+
+					<li><a href="">Luana Carmem</a></li>
+					<li><a href="">Marcos Araújo</a></li>
+					</ul>
+			</div>
+			
+		</div>
+
+		</div>
+	</div><!--fim container-->
+</body>
+</html>	
