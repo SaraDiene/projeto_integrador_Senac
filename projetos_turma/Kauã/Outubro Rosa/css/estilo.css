@@ -1,0 +1,214 @@
+/* Estrutura do site*/
+
+
+/*RESETANDO A MARGIN E O PADDING*/
+* {
+	margin:0;
+	padding:0;
+}
+
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+ 
+
+
+body {
+	background: url(../imagens/img3.png),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+nav.navbar-transparente {
+	width: 100%;
+	padding-top: 30px;
+	background: #F6E3FA;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white; 
+}
+
+ 
+
+
+/*MAIS DEFINIÇÕES DO TOPO*/
+.logo {
+	text-indent: -3000px;
+	float: left;
+}
+
+ .card.estilo{
+ 	background: #EB9CA6;
+  }
+
+ .navbar-nav.texto{
+ 	font-size: 20px;
+ 	color: black;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ }
+
+ .caixa-conteudo {
+	/*background: white;*/
+	background: url(../imagens/img2.png);
+	padding: 5px;
+	margin-top: 5px;
+	border-radius: 3%;
+}
+
+img.imagem-principal-1col {
+	width: 80%;
+	border: 3px solid #dfdfdf;
+	margin-left: 100px;
+	border-radius: 5%;
+}
+
+img.imagem-logo {
+	width: 85%;
+	border: 3px;
+	margin-left: 100px;
+	border-radius: 5%;
+}
+
+#arranja_titulo {
+	text-align: center;
+	padding: 10px;
+}
+
+#arranja_texto{
+	text-align: justify;
+	padding: 10px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+/*==================================================================*/
+
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.caixa1{
+	background-image: url(../imagens/corra.jpg);
+}
+
+
+.caixa2{
+	background-image: url(../imagens/alimento.jpg);
+}
+
+
+
+.caixa3{
+	background-image: url(../imagens/bebida.jpg);
+}
+
+
+
+.caixa4{
+	background-image: url(../imagens/final.png);
+}
+
+#texto-parallax{
+	margin-top: 30px;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.conteudo-titulo{
+	position: absolute;
+	left: 0;
+	text-align: center;
+	top: 45%;
+	width: 100%;
+}
+
+.conteudo-titulo span.titulo{
+	color: #fff;
+	background-color: #111;
+	text-transform: uppercase;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	border-radius: 25px;
+}
+
+
+/*=======================================================*/
+
+/*MARCADORES DAS PÁGINAS*/
+body.home #navegacao a#home,
+body.outubro-rosa #navegacao a#outubro-rosa, 
+body.prevençao #navegacao a#prevençao,
+body.tabela #navegacao a#tabela,
+body.cadastro #navegacao a#cadastro
+
+
+
+{
+	color: white;
+	background: #C98704;
+	cursor: text;
+}
+
+/*=======================================================*/
+
+
+/* ALINHAR O CONTEÚDO BEM PRÓXIMO DO TOPO */
+#conteudo {
+	margin-top: 80px;
+}
+
+/*PÁGINA HOME SEPARAR EM 2 COLUNAS E REPOSICIONAR */
+#primario {
+	width: 31%;
+	float: left;
+	margin: 0 0 20px 20px;
+
+}
+
+
+#secundario {
+	width: 31%;
+	float: left;
+ 	margin: 0 0 20px 13px;
+}
+
+
+#terciario {
+	width: 31%;
+	float: left;
+ 	margin: 0 0 20px 13px;
+}
+
+
+/*==================================================*/
+
+/*Rodape*/
+
+footer{
+
+     background-color:#ee919d;
+     color: white;
+     font-size: 1.2em;
+     margin-top: 80px;
+     text-align: center;
+     width: 100%;
+     height: 85px;
+     padding: 60px;
+     font-style: italic ;
+
+ }
+
+/*================================================================*/
