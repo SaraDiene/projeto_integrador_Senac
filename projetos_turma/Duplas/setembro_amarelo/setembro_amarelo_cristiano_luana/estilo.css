@@ -1,0 +1,153 @@
+body{ 
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	width: 100%;
+	background-color: rgb(255,215,0);
+		 }
+
+#container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#container-links{
+	width: 900px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.imagem{
+	width: 100%;
+	height: 620px;
+	background: url(imagem/capa.png) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#coluna1{
+	width: 360px;
+	float: left;
+	padding: 8px;
+	margin: 5px;
+	border: 5px solid #57593f;
+	background: #fff;
+}
+
+p{
+	text-align: justify;
+}
+
+ul{
+	list-style: none;
+	padding: 0 0 0 20%;
+	margin: 0 auto;
+}
+
+ul a{
+	font-size: 1.2em;
+	float: left;
+	padding: 20px;
+	text-decoration: none;
+	color: #000;
+	line-height: 1.3em;
+}
+
+a:hover{
+	color: #ffe47a;
+	background-color: #57593f;
+}
+
+h3{
+	text-align: center;
+
+}
+
+#rodape{
+	background: #f9e700;
+	padding: 0px;
+}
+
+.p1{
+	text-align: center;
+}
+
+.a{
+	color: red;
+}
+
+.p-link{
+	padding: 50px;
+	font-size: 1.5em;
+}
+
+.encontre{
+	margin: 3px;
+}
+.box{
+   color: white;
+   position: absolute;
+   bottom: -120%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-color: rgba(2.5, 3.4, 0, 7.0);
+  	padding: 15px;
+  	border-radius: 15px;
+  	width: 35%;
+}
+
+ 
+
+.saiba{
+	text-align: center;
+}
+
+
+#home #navegacao .home a,
+#sobre #navegacao .ajuda a,
+#origem #navegacao .origem a,
+#doenca #navegacao .doenca a,
+#prevencao #navegacao .prevencao a{
+	color: #fff;
+	background: #7F6A26;
+}
+
+table{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border:  5px solid #57593f;
+	background: #fff;
+	margin: 0 auto;
+}
+
+th{
+	text-align: center;
+	font-size: 1em;
+	padding: 10px;
+	background-color: #ffe47a;
+}
+
+td{
+	text-align: center;
+	background: #d1c8b2;
+}
+
+.morte{
+	color: red;
+}
+
+tr:hover{
+	color: #ff5e00;
+	background: #57593f;
+}
+
+#escalada{
+	background: url(imagem/escalada3.png) no-repeat center;
+	padding-top: 30%;
+}
+
+#escalada:hover{
+	background: url(imagem/escalada4.png) no-repeat center;
+	transition: width 3s, background 3s;
+}
+
+
+
+
