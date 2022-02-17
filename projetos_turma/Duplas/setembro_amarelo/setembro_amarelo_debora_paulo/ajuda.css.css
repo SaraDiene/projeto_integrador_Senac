@@ -1,0 +1,158 @@
+*{
+	margin: auto;
+	padding: 0px;
+}
+
+body,html{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	height: 100%;
+	/*background: #FFFACD;*/
+
+}
+
+
+h1{
+	background: orange;
+	box-shadow: 20px 20px 15px black;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 20px;
+	color: white;
+	width: 90%;
+	font-size: 50px;
+}
+
+
+
+h2{
+	color: #FF4500;
+	text-align: center;
+}
+
+p{ 
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+
+ }
+
+
+.conteudo{			
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item{					
+	width: 100%;
+	height: 300px;
+	background: #FFFACD;
+	/*background: #F8F8FF;*/
+	margin: 10px;
+	padding: 35px;	
+
+
+}
+.titulo{
+	/*background: #FFF0F5;*/
+	color: black;
+	padding: 5px;
+}
+
+.inf{
+	height: 170px;
+	width: 300px;
+}
+
+
+/*Paralax*/
+
+
+.caixa1{
+
+	     position: relative; 
+	     height: 100%;
+	     background-repeat: no-repeat;
+	     background-size: cover; 
+	     background-position: center;
+	     background-attachment: fixed; 
+	     background-repeat: no-repeat;
+	     background-size: cover;
+	     background-image: url(voce.png);
+	     opacity: 0.6;
+
+}
+
+
+ 
+
+
+/* Menu*/
+
+#topo ul a {
+	        display: block;
+	        font-size: 1em;
+	        background: black;
+	        color: white;
+	        text-decoration: none;
+	        letter-spacing: 2px;
+	        float: left;
+	        padding: 15.5px;
+	        margin-top: 0px;
+	        width: 31%;      
+
+} 
+
+
+ul{
+	text-align: center;
+	padding: 0px;
+	margin: 0;
+	list-style: none;
+
+}  
+
+
+#topo ul a:hover{
+	             color: #1c1c1c ;
+	             
+}
+
+
+
+
+#container-rodape {
+	background: orange;
+	padding: 20px;
+}
+
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+#cvv{
+	  animation-name: cvv;
+    animation-duration: 0.5s;
+    delay: 1s;
+    animation-iteration-count: infinite; 
+
+}
+
+@keyframes cvv{
+         from{
+         	color: white ;
+         }
+
+         to{
+         	color: #FF4500;
+    }
+
+
+
+
+

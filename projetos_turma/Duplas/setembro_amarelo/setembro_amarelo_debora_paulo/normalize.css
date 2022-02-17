@@ -1,0 +1,349 @@
+/ *! normalize.css v8.0.1 | Licença MIT | github.com/necolas/normalize.css * /
+
+/ * Document
+   ========================================================== ========================== * /
+
+/ **
+ * 1. Corrija a altura da linha em todos os navegadores.
+ * 2. Evite ajustes de tamanho da fonte após mudanças de orientação no iOS.
+ * /
+
+html {
+  altura da linha: 1,15; / * 1 * /
+  -webkit-texto-tamanho-ajuste: 100%; / * 2 * /
+}
+
+/* Seções
+   ========================================================== ========================== * /
+
+/ **
+ * Remova a margem em todos os navegadores.
+ * /
+
+corpo {
+  margem: 0;
+}
+
+/ **
+ * Renderize o elemento `main` de forma consistente no IE.
+ * /
+
+a Principal {
+  display: bloco;
+}
+
+/ **
+ * Corrija o tamanho da fonte e a margem nos elementos `h1` dentro da` seção` e
+ * Contextos `article` no Chrome, Firefox e Safari.
+ * /
+
+h1 {
+  tamanho da fonte: 2em;
+  margem: 0,67em 0;
+}
+
+/ * Conteúdo de agrupamento
+   ========================================================== ========================== * /
+
+/ **
+ * 1. Adicione o tamanho correto da caixa no Firefox.
+ * 2. Mostre o estouro no Edge e no IE.
+ * /
+
+hr {
+  tamanho da caixa: caixa de conteúdo; / * 1 * /
+  altura: 0; / * 1 * /
+  estouro: visível; / * 2 * /
+}
+
+/ **
+ * 1. Corrija a herança e o dimensionamento do tamanho da fonte em todos os navegadores.
+ * 2. Corrija o tamanho estranho da fonte `em` em todos os navegadores.
+ * /
+
+pre {
+  família da fonte: monoespaço, monoespaço; / * 1 * /
+  tamanho da fonte: 1em; / * 2 * /
+}
+
+/ * Semântica em nível de texto
+   ========================================================== ========================== * /
+
+/ **
+ * Remova o fundo cinza em links ativos no IE 10.
+ * /
+
+uma {
+  cor de fundo: transparente;
+}
+
+/ **
+ * 1. Remova a borda inferior no Chrome 57-
+ * 2. Adicione a decoração de texto correta no Chrome, Edge, IE, Opera e Safari.
+ * /
+
+abbr [título] {
+  borda inferior: nenhum; / * 1 * /
+  decoração de texto: sublinhado; / * 2 * /
+  decoração de texto: sublinhado pontilhado; / * 2 * /
+}
+
+/ **
+ * Adicione o peso correto da fonte no Chrome, Edge e Safari.
+ * /
+
+b,
+Forte {
+  peso da fonte: mais negrito;
+}
+
+/ **
+ * 1. Corrija a herança e o dimensionamento do tamanho da fonte em todos os navegadores.
+ * 2. Corrija o tamanho estranho da fonte `em` em todos os navegadores.
+ * /
+
+código,
+kbd,
+samp {
+  família da fonte: monoespaço, monoespaço; / * 1 * /
+  tamanho da fonte: 1em; / * 2 * /
+}
+
+/ **
+ * Adicione o tamanho de fonte correto em todos os navegadores.
+ * /
+
+pequena {
+  tamanho da fonte: 80%;
+}
+
+/ **
+ * Impedir que os elementos `sub` e` sup` afetem a altura da linha em
+ * todos os navegadores.
+ * /
+
+sub,
+e aí {
+  tamanho da fonte: 75%;
+  altura da linha: 0;
+  posição: relativa;
+  alinhamento vertical: linha de base;
+}
+
+sub {
+  inferior: -0,25em;
+}
+
+e aí {
+  topo: -0,5em;
+}
+
+/ * Conteúdo incorporado
+   ========================================================== ========================== * /
+
+/ **
+ * Remova a borda das imagens dentro de links no IE 10.
+ * /
+
+img {
+  estilo de borda: nenhum;
+}
+
+/ * Formulários
+   ========================================================== ========================== * /
+
+/ **
+ * 1. Altere os estilos de fonte em todos os navegadores.
+ * 2. Remova a margem no Firefox e Safari.
+ * /
+
+botão,
+entrada,
+optgroup,
+selecione,
+textarea {
+  família de fontes: herdar; / * 1 * /
+  tamanho da fonte: 100%; / * 1 * /
+  altura da linha: 1,15; / * 1 * /
+  margem: 0; / * 2 * /
+}
+
+/ **
+ * Mostre o estouro no IE.
+ * 1. Mostre o estouro no Edge.
+ * /
+
+botão,
+entrada {/ * 1 * /
+  estouro: visível;
+}
+
+/ **
+ * Remova a herança da transformação de texto no Edge, Firefox e IE.
+ * 1. Remova a herança da transformação de texto no Firefox.
+ * /
+
+botão,
+selecione {/ * 1 * /
+  transformação de texto: nenhum;
+}
+
+/ **
+ * Corrija a incapacidade de estilizar tipos clicáveis ​​no iOS e Safari.
+ * /
+
+botão,
+[type = "botão"],
+[type = "redefinir"],
+[type = "enviar"] {
+  -webkit-aparência: botão;
+}
+
+/ **
+ * Remova a borda interna e o preenchimento no Firefox.
+ * /
+
+botão :: - moz-focus-inner,
+[type = "botão"] :: - moz-focus-inner,
+[type = "reset"] :: - moz-focus-inner,
+[type = "enviar"] :: - moz-focus-inner {
+  estilo de borda: nenhum;
+  preenchimento: 0;
+}
+
+/ **
+ * Restaure os estilos de foco não definidos pela regra anterior.
+ * /
+
+botão: -moz-focusring,
+[type = "botão"]: - moz-focusring,
+[type = "reset"]: - moz-focusring,
+[type = "enviar"]: - moz-focusring {
+  esboço: ButtonText pontilhado de 1px;
+}
+
+/ **
+ * Corrija o preenchimento no Firefox.
+ * /
+
+fieldset {
+  preenchimento: 0,35em 0,75em 0,625em;
+}
+
+/ **
+ * 1. Corrija a quebra automática de texto no Edge e no IE.
+ * 2. Corrija a herança de cores dos elementos `fieldset` no IE.
+ * 3. Remova o preenchimento para que os desenvolvedores não sejam pegos quando zerarem
+ * Elementos `fieldset` em todos os navegadores.
+ * /
+
+lenda {
+  dimensionamento da caixa: caixa de borda; / * 1 * /
+  cor: herdar; / * 2 * /
+  display: mesa; / * 1 * /
+  largura máxima: 100%; / * 1 * /
+  preenchimento: 0; / * 3 * /
+  espaço em branco: normal; / * 1 * /
+}
+
+/ **
+ * Adicione o alinhamento vertical correto no Chrome, Firefox e Opera.
+ * /
+
+progresso {
+  alinhamento vertical: linha de base;
+}
+
+/ **
+ * Remova a barra de rolagem vertical padrão no IE 10+.
+ * /
+
+textarea {
+  estouro: automático;
+}
+
+/ **
+ * 1. Adicione o tamanho correto da caixa no IE 10.
+ * 2. Remova o enchimento no IE 10.
+ * /
+
+[type = "caixa de seleção"],
+[type = "radio"] {
+  dimensionamento da caixa: caixa de borda; / * 1 * /
+  preenchimento: 0; / * 2 * /
+}
+
+/ **
+ * Corrija o estilo do cursor dos botões de incremento e decremento no Chrome.
+ * /
+
+[type = "número"] :: - webkit-inner-spin-button,
+[type = "número"] :: - webkit-outer-spin-button {
+  altura: automático;
+}
+
+/ **
+ * 1. Corrija a aparência estranha no Chrome e Safari.
+ * 2. Corrija o estilo de contorno no Safari.
+ * /
+
+[type = "pesquisar"] {
+  -webkit-aparência: campo de texto; / * 1 * /
+  contorno-deslocamento: -2px; / * 2 * /
+}
+
+/ **
+ * Remova o enchimento interno no Chrome e Safari no macOS.
+ * /
+
+[type = "search"] :: - webkit-search-decoration {
+  -webkit-aparência: nenhum;
+}
+
+/ **
+ * 1. Corrija a incapacidade de estilizar tipos clicáveis ​​no iOS e Safari.
+ * 2. Altere as propriedades da fonte para `herdar` no Safari.
+ * /
+
+:: - webkit-file-upload-button {
+  -webkit-aparência: botão; / * 1 * /
+  fonte: herdar; / * 2 * /
+}
+
+/* Interativo
+   ========================================================== ========================== * /
+
+/ *
+ * Adicione a exibição correta no Edge, IE 10+ e Firefox.
+ * /
+
+detalhes {
+  display: bloco;
+}
+
+/ *
+ * Adicione a exibição correta em todos os navegadores.
+ * /
+
+resumo {
+  display: item da lista;
+}
+
+/ * Misc
+   ========================================================== ========================== * /
+
+/ **
+ * Adicione a exibição correta no IE 10+.
+ * /
+
+modelo {
+  Mostrar nenhum;
+}
+
+/ **
+ * Adicione a exibição correta no IE 10.
+ * /
+
+[escondido] {
+  Mostrar nenhum;
+}

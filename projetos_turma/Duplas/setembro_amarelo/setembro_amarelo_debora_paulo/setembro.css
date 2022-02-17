@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body,html{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	height: 100%;
+	
+}
+
+
+
+ul{
+	text-align: center;
+	padding: 0px;
+	margin: 0;
+	list-style: none;
+
+
+	
+}
+
+
+#topo ul a {
+	        display: block;
+	        font-size: 1em;
+	        background: black;
+	        color: white;
+	        text-decoration: none;
+	        letter-spacing: 2px;
+	        float: left;
+	        padding: 15.5px;
+	        margin-top: 0px;
+	        width: 31%;
+            
+
+}   
+
+
+
+#topo ul a:hover{
+	             color: #1c1c1c ;
+}
+
+/*#secundario {
+	width: 270px;
+	float: left;
+ 	margin: 0 0 20px 15px;
+}
+*/
+
+#container-rodape {
+	background: orange;
+	padding: 20px;
+}
+
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+
+
+p a:hover {
+           color: orange;
+
+}
+
+
+/*.caixa-destaque{
+				background: #f3f3f3;*/
+
+
+}
+
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;}
+
+
+
+/*.caixa-navegacao{
+				background: #f4c430;
+				color: white;
+				width: 25%;
+				margin-bottom: 0;
+				margin-left: 2px;
+				padding: 2px;
+				letter-spacing: 1px;*/
+}
+
+
+
+
+
+img.imagem-principal {
+	width: 25%;
+	height: 25%;
+	border: 3px solid #dfdfdf;
+}
+
+
+/*.link{
+	    margin-top: 0;
+}
+.emoji{
+	background: url(imagens/sla1.png);
+}
+.emoji:hover{
+color: transparent;	
+
+}*/
+
+.conteudo{					/*inicio do flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+.item{					
+	width: 300px;
+	height: 300px;
+	background: gold;
+	margin: 10px;
+	border:orange solid 3px;
+	border-radius: 2px;		
+
+}
+.titulo{
+	background: orange;
+	color: white;
+	padding: 5px;
+}
+.inf{
+	height: 170px;
+	width: 300px;
+}
+.or{
+	width: 300px;
+	height: 140px;
+
+}
+a{
+	text-decoration: none;
+}
+#color{
+	background: #FFFACD;
+}
