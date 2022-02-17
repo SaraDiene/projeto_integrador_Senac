@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="icone.png">
+	<title> Outubro Rosa</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta name="viewport" content="width-device-width, inicial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+	<header>
+		
+
+		<!-- INICIO MENU-->
+		<nav class="navbar navbar-expand-md  navbar-light navbar-transparente">
+			<!--Logo-->
+			<a href="OUTUBRO ROSA.html"> <img src="logo1.png"> </a>
+
+			<!--Menu Hamburguer-->
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao2">
+				<span class="navbar-toggler-icon"></span>
+
+			</button>
+
+			<!--Navegação-->
+
+			<div class="collapse navbar-collapse" id="navegacao2">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="OUTUBRO ROSA.html" class="nav-link"> Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="historia.html" class="nav-link"> História </a>
+					</li>
+					<li class="nav-item active">
+						<a href="campanha.html" class="nav-link"> Campanha</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="formulario.html" class="nav-link"> Formulario</a>
+					</li>
+				</ul>
+				
+				<form class="form-inline">
+					<input type="text" class="form-control ml-4 mr-1" placeholder="Pesquisar">
+					<button class="btn btn-outline-light mr-4 "> Ir </button>
+				</form>
+
+			</div>
+
+		</nav>
+	</header>
+
+<!-- inicio slide-->
+		<div class="container-fluid">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="slide1.jpg" class="d-block w-100" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="slide2.jpg" class="d-block w-100" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="slide3.jpg" class="d-block w-100" alt="...">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+
+
+
+		<!-- fim slide-->
+	<section id="home">
+			<div class=" container">
+			<div class="accordion" id="accordionExample">
+			  <div class="card" id="formata_cabecalho">
+			    <div class="card-header" id="headingOne">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			         <span id="branco">  ESTATÍTICAS </span>
+			        </button>
+			      </h2>
+			    </div>
+
+			    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+			      <div class="card-body" id="formata_conteudo">
+			       <p>Estimativa de novos casos: 66.280 (2021 - INCA) Número de mortes: 18.295, sendo 18.068 mulheres e 227 homens (2019 - Atlas de Mortalidade por Câncer - SIM). </p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="card" id="formata_cabecalho">
+			    <div class="card-header" id="headingTwo">
+			    	 
+			      <h2 class="mb-0">
+      	 
+
+			        <button class="btn btn-block text-left collapsed  " type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			         <span id="branco">O QUE AUMENTA OS RISCOS?</span> 
+			        </button>
+			     
+			      </h2>
+			    </div>
+			    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+			      <div class="card-body" id="formata_conteudo">
+			        <p> O câncer de mama não tem somente uma causa. A idade é um dos mais importantes fatores de risco para a doença (cerca de quatro em cada cinco casos ocorrem após os 50 anos). 
+			        Outros fatores que aumentam o risco da doença são:
+			        <ul>
+			        	<h4>Fatores ambientais e comportamentais</h4>
+			        	<li> Obesidade e sobrepeso</li>
+			        	<li> Inatividade física</li>
+			        	<li> Consumo de bebida alcoólica</li>
+			        	<li> Exposição frequente a radiações ionizantes para tratamento (radioterapia) ou exames diagnósticos (tomografia, Raios-X, mamografia, etc)</li>
+			        	<li> Tabagismo - há evidências sugestivas de aumento de risco</li>
+			        	
+			        </ul>
+			        <br>
+
+			         <ul>
+			        	<h4>Fatores da história reprodutiva e hormonal</h4>
+			        	<li> Primeira menstruação antes de 12 anos</li>
+			        	<li> Não ter tido filhos</li>
+			        	<li> Primeira gravidez após os 30 anos</li>
+			        	<li> Parar de menstruar (menopausa) após os 55 anos</li>
+			        	<li> Uso de contraceptivos hormonais (estrogênio-progesterona)</li>
+			        	<li>Ter feito reposição hormonal pós-menopausa, principalmente por mais de cinco anos</li>
+			        	
+			        </ul>
+			        <br>
+			        <ul>
+			        	<h4>FATORES GENÉTICOS E HEREDITÁRIOS</h4>
+			        	<li> História familiar de câncer de ovário</li>
+			        	<li> Casos de câncer de mama na família, principalmente antes dos 50 anos</li>
+			        	<li> História familiar de câncer de mama em homens</li>
+			        	<li> Alteração genética, especialmente nos genes BRCA1 e BRCA2</li>
+			        	
+			        </ul>
+			        * Não realizar ao menos 150 minutos por semana de atividade física de intensidade moderada. Para maiores informações, consulte o Guia de Atividade Física para a população brasileira (abre em outra janela).<br>
+
+					**A mulher que possui um ou mais fatores genéticos/hereditários apresenta risco elevado de desenvolver câncer de mama. Apenas 5 a 10 % dos casos da doença estão relacionados a esses fatores. <br>
+
+					Atenção: a presença de um ou mais desses fatores de risco não significa que a mulher terá necessariamente a doença.<br>
+
+			    	</p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="card" id="formata_cabecalho">
+			    <div class="card-header" id="headingThree">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			           <span id="branco"> COMO PREVINIR</span>
+			        </button>
+			      </h2>
+			    </div>
+			    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+			      <div class="card-body" id="formata_conteudo">
+			         <P>Cerca de 30% dos casos de câncer de mama podem ser evitados com a adoção de hábitos saudáveis como:
+			         	<ul>
+			         		<li>Praticar atividade física</li>
+			         		<li>Manter o peso corporal adequado</li>
+			         		<li>Evitar o consumo de bebidas alcoólicas</li>
+			         		<li>Amamentar seu bebê</li>
+			         		<li>Amamentar o máximo de tempo possível é um fator de proteção contra o câncer.</li>
+			         		<li>Não fumar e evitar o tabagismo passivo são medidas que podem contribuir para a prevenção do câncer de mama.</li>
+			         	</ul> 
+			         </P>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="card" id="formata_cabecalho">
+			    <div class="card-header" id="headingfour">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+			          <span id="branco"> SINAIS E SINTOMAS</span>
+			        </button>
+			      </h2>
+			    </div>
+
+			    <div id="collapsefour" class="collapse show" aria-labelledby="headinfour" data-parent="#accordionExample">
+			      <div class="card-body " id="formata_conteudo">
+			       <P>O câncer de mama pode ser percebido em fases iniciais, na maioria dos casos, por meio dos seguintes sinais e sintomas:
+			         	<ul>
+			         		<li>Nódulo (caroço), fixo e geralmente indolor: é a principal manifestação da doença, estando presente em cerca de 90% dos casos quando o câncer é percebido pela própria mulher</li>
+			         		<li>Pele da mama avermelhada, retraída ou parecida com casca de laranja</li>
+			         		<li>Alterações no bico do peito (mamilo)</li>
+			         		<li>Pequenos nódulos nas axilas ou no pescoço</li>
+			         		<li>Saída espontânea de líquido anormal pelos mamilos.</li>
+			         		
+			         	</ul> 
+			         	Esses sinais e sintomas devem sempre ser investigados por um médico para que seja avaliado o risco de se tratar de câncer.<br>
+			         	É importante que as mulheres observem suas mamas sempre que se sentirem confortáveis para tal (seja no banho, no momento da troca de roupa ou em outra situação do cotidiano), sem técnica específica, valorizando a descoberta casual de pequenas alterações mamárias.<br>
+			         	Em caso de permanecerem as alterações,  elas devem procurar logo os serviços de saúde para avaliação diagnóstica.<br>
+			         	A postura atenta das mulheres em relação à saúde das mamas é fundamental para a detecção precoce do câncer da mama.
+ 
+			         </P>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="card" id="formata_cabecalho">
+			    <div class="card-header" id="headingfive">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+			         <span id="branco">  DETECÇÃO PRECOCE</span>
+			        </button>
+			      </h2>
+			    </div>
+
+			    <div id="collapsefive" class="collapse show" aria-labelledby="headingfive" data-parent="#accordionExample">
+			      <div class="card-body" id="formata_conteudo">
+			       <P>O câncer de mama pode ser detectado em fases iniciais, em grande parte dos casos, aumentando assim a possibilidade de tratamentos menos agressivos e com taxas de sucesso satisfatórias. <br>Todas as mulheres, independentemente da idade, devem ser estimuladas a conhecer seu corpo para saber o que é e o que não é normal em suas mamas. A maior parte dos cânceres de mama é descoberta pelas próprias mulheres.<br>
+			       	Além disso, o Ministério da Saúde recomenda que a mamografia de rastreamento (exame realizado quando não há sinais nem sintomas suspeitos) seja ofertada para mulheres entre 50 e 69 anos, a cada dois anos.<br> 
+			       	A recomendação brasileira segue a orientação da Organização Mundial da Saúde e de países que adotam o rastreamento mamográfico.<br> 
+			       	Mamografia é uma radiografia das mamas feita por um equipamento de raios X chamado mamógrafo, capaz de identificar alterações suspeitas de câncer antes do surgimento dos sintomas, ou seja, antes que seja palpada qualquer alteração nas mamas.<br>
+			       	Mulheres com risco elevado de câncer de mama devem conversar com seu médico para avaliação do risco e definição da conduta a ser adotada.<br>
+			       	A mamografia de rastreamento pode ajudar a reduzir a mortalidade por câncer de mama, mas também expõe a mulher a alguns riscos. Os principais benefícios e riscos desse exame são:
+			       	Benefícios:
+			         	<ul>
+			         		<li>Encontrar o câncer no início e permitir um tratamento menos agressivo.</li>
+			         		<li>Menor chance de a paciente morrer por câncer de mama, em função do tratamento precoce.</li>
+			         		
+			         	</ul>
+			         Riscos:
+			         <ul>
+			         		<li>
+			         			Resultados incorretos:
+			         			<li> Suspeita de câncer de mama, sem que se confirme a doença. Esse alarme falso (resultado falso positivo) gera ansiedade e estresse, além da necessidade de outros exames.</li>
+			         			<li> Câncer existente, mas resultado normal (resultado falso negativo). Esse erro gera falsa segurança à mulher.</li>
+			         		</li>
+
+			         		<li>Ser diagnosticada e submetida a tratamento, com cirurgia (retirada parcial ou total da mama), quimioterapia e/ou radioterapia, de um câncer que não ameaçaria a vida. Isso ocorre em virtude do crescimento lento de certos tipos de câncer de mama.</li>
+			         		<li> Exposição aos Raios X. Raramente causa câncer, mas há um discreto aumento do risco quanto mais frequente é a exposição. Esse dado não deve desestimular as mulheres a se submeterem à mamografia, já que a exposição ao Raio X durante esse exame é bem pequena, tornando o método bastante seguro para a detecção precoce.</li>
+			         		
+			         	</ul> 
+			         	A mamografia diagnóstica, exame realizado com a finalidade de investigação de lesões suspeitas da mama, pode ser solicitada em qualquer idade, a critério médico. Ainda assim, a mamografia diagnóstica não apresenta uma boa sensibilidade em mulheres jovens, pois nessa idade as mamas são mais densas, e o exame apresenta muitos resultados incorretos.<br>
+			         	O SUS oferece exame de mamografia para todas as idades, conforme indicação médica.
+ 
+			         </P>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="card" id="formata_cabecalho">
+			    <div class="card-header" id="headingsix">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="true" aria-controls="collapsesix">
+			          <span id="branco"> DIAGNÓSTICO </span>
+			        </button>
+			      </h2>
+			    </div>
+
+			    <div id="collapsesix" class="collapse show" aria-labelledby="headingsix" data-parent="#accordionExample">
+			      <div class="card-body" id="formata_conteudo">
+			       <p>Um nódulo ou outro sintoma suspeito nas mamas deve ser investigado para confirmar se é ou não câncer de mama. Para a investigação, além do exame clínico das mamas, exames de imagem podem ser recomendados, como mamografia, ultrassonografia ou ressonância magnética. A confirmação diagnóstica só é feita, porém, por meio da biópsia, técnica que consiste na retirada de um fragmento do nódulo ou da lesão suspeita por meio de punções (extração por agulha) ou de uma pequena cirurgia. O material retirado é analisado pelo patologista para a definição do diagnóstico. </p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="card" id="formata_cabecalho">
+			    <div class="card-header" id="headingseven">
+			  
+			      <h2 class="mb-0">
+			      	   <button class="btn btn-block text-left col-md-12" type="button" data-toggle="collapse" data-target="#collapseseven" aria-expanded="true" aria-controls="collapseseven">
+				        <span id="branco">  TRATAMENTO</p> </span>
+				        </button>
+			       
+			      </h2>
+			 
+			 </div>
+		 
+			 	 
+			    <div id="collapseseven" class="collapse show" aria-labelledby="headingseven" data-parent="#accordionExample">
+			      <div class="card-body" id="formata_conteudo" >
+			       <p>Muitos avanços vêm ocorrendo no tratamento do câncer de mama nas últimas décadas. Há hoje mais conhecimento sobre as variadas formas de apresentação da doença e diversas terapêuticas estão disponíveis. <br>
+			       	O tratamento do câncer de mama depende da fase em que a doença se encontra (estadiamento) e do tipo do tumor. Pode incluir cirurgia, radioterapia, quimioterapia, hormonioterapia e terapia biológica (terapia alvo).<br>
+			       	Quando a doença é diagnosticada no início, o tratamento tem maior potencial curativo. No caso de a doença já possuir metástases (quando o câncer se espalhou para outros órgãos), o tratamento busca prolongar a sobrevida e melhorar a qualidade de vida.<br>
+			       	<h5>ESTADIAMENTO</h5> <br>
+			       	O tratamento varia de acordo com o estadiamento da doença, as características biológicas do tumor e as condições da paciente (idade, se já passou ou não pela menopausa, doenças preexistentes e preferências).<br>
+			       	As modalidades de tratamento do câncer de mama podem ser divididas em:<br>
+			       	- Tratamento local: cirurgia e radioterapia.<br>
+			       	- Tratamento sistêmico: quimioterapia, hormonioterapia e terapia biológica.<br>
+			       	<h5>Estádios I e II</h5> <br>
+			       	A conduta habitual nas fases iniciais do câncer de mama é a cirurgia, que pode ser conservadora (retirada apenas do tumor) ou mastectomia (retirada da mama) parcial ou total, seguida ou não de reconstrução mamária.<br>
+			       	Após a cirurgia, tratamento complementar com radioterapia pode ser indicado em algumas situações. Já a reconstrução mamária deve ser sempre considerada nos casos de retirada da mama para minimizar os danos físicos e emocionais do tratamento.<br>
+			       	O tratamento sistêmico, após o tratamento local, será indicado de acordo com a avaliação de risco de a doença retornar (recorrência ou recidiva) e considera a idade da paciente, o tamanho e o tipo do tumor e se há comprometimento dos linfonodos axilares.<br>
+			       	A mensuração (medição) dos receptores hormonais (receptor de estrogênio e progesterona) do tumor, por meio do exame de imunohistoquímica, é fundamental para saber se a hormonioterapia pode ser indicada (tratamento de uso prolongado em forma de comprimidos para diminuir a produção dos hormônios femininos do organismo). A informação sobre a presença do HER-2 (fator de crescimento epidérmico 2) também é obtida por meio desse exame e poderá indicar a necessidade de terapia biológica anti-HER-2.<br>
+			       	Para algumas pacientes com tumores medindo entre 2,1cm e 5cm com comprometimento dos linfonodos axilares, embora sejam entendidas como estadiamento II, pode ser considerado iniciar o tratamento por terapias sistêmicas (quimioterapia) dependendo da imuno-histoquímica (o chamado down stage [redução de estágio]. Essa decisão individualizada permite que pacientes que seriam submetidas à retirada da mama e dos linfonodos axilares possam, eventualmente, ter essas áreas preservadas.<br>
+			       	<h5>Estádio III</h5> <br>
+			       	Pacientes com tumores maiores que 5cm, porém ainda localizados, enquadram-se no estádio III. Nessa situação, o tratamento sistêmico (na maioria das vezes, com quimioterapia) é a opção inicial. Após a redução do tumor promovida pela quimioterapia, segue-se com o tratamento local (cirurgia e radioterapia).<br>
+			       	<h5>Estádio IV</h5><br>
+			       	Nessa fase, em que já há metástase (o câncer se espalhou para outros órgãos) é fundamental buscar o equilíbrio entre o controle da doença e o possível aumento da sobrevida, levando-se em consideração os potenciais efeitos colaterais do tratamento.<br>
+			       A atenção à qualidade de vida da paciente com câncer de mama deve ser preocupação dos profissionais de saúde ao longo de todo o processo terapêutico. </p>
+			       </div>
+			      </div>
+			    </div>
+			  </div>
+
+		</div>
+	</section>
+
+	 	<!-- PAGINAÇÃO-->
+	<nav aria-label="Page navigation example" class="container">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="historia.html" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item" > <a class="page-link" href="OUTUBRO ROSA.html">HOME</a></li>
+    <li class="page-item"><a class="page-link" href="historia.html">HISTORIA</a></li>
+    <li class="page-item active" aria-current="page"><a class="page-link" href="campanha.html">CAMPANHA</a></li>
+    <li class="page-item"><a class="page-link" href="formulario.html">FORMULARIO</a></li>
+    <li class="page-item">
+      <a class="page-link" href="formulario.html" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+	<footer class="mt-4 mb-4">
+		
+		<div class="container">
+	        <div class="row">
+	        	<div class="col-md-8">
+	        		<p>Desenvolvido por Tamires Suele Lima </p>
+	        	</div>
+	        	<div class="col-md-4 d-flex justify-content-end">
+		            <a href="https://www.instagram.com/tamireslima16/" class="btn btn-outline-dark ml-2">
+		              <i class="fab fa-instagram"></i>
+		            </a>
+		            <a href="www.youtube.com/channel/UCjTpUMymASFGKfoX4dEEFNQ" class="btn btn-outline-dark ml-2">
+		              <i class="fab fa-youtube"></i>
+		            </a>
+	         	</div>
+	        </div>
+      </div>
+
+     
+		
+	</footer>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

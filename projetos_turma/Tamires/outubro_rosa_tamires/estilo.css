@@ -1,0 +1,129 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Helvetica,Arial,sans-serif;
+    
+ }
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background:#E69285;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    background-color: #FFE4C4;
+    border-radius: 5px;
+
+   }
+
+section{
+     width: 90%;
+     text-align: justify;
+     font-weight: 500;
+     margin: auto;
+     padding: 40px;
+     margin-top: 20px; 
+ }
+
+  #formata_cabecalho{
+    background-color: #FF9D9A;
+
+ }
+
+ #formata_conteudo{
+     background-color: white;
+ }
+ #branco{
+    color: white;
+
+ }
+  
+
+ p{
+     text-align: justify;
+  
+ }
+
+
+ /* RODAPE*/
+ footer{
+     background-color:#E69285;
+     color: white;
+     font-size: 1.2em;
+     margin-top: 80px;
+     text-align: center;
+     padding: 60px;
+     font-style: italic ;
+
+ }
+
+ footer p{
+    margin: 5px 15px;
+    text-shadow: black;
+ }
+
+ /* FORMULARIO*/
+ .formulario{
+    margin: 1em 4;
+    padding: 20px;
+    border: 2px solid #B8756A;
+    background:#E69285;
+    border-radius: 20px;
+
+ }
+
+fieldset {
+    width: 100%;
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    border:4px solid #B8756A;
+    background:#FFE4C4;
+    border-radius: 20px;
+    color:#66413B;
+    border-color: #B8756A;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    font-size: 1.1em;
+}
+
+select {
+    height: 30px;
+    width: 200px;
+    font-size: 1.1em;
+}
+/* BOTAO*/
+#enviar {
+    width: 98%;
+    height: 50px;
+    margin: 10px;
+    font-size: 1em;
+    color: white;
+     background: #B8756A;
+    border: none;
+    border-radius: 10px;
+}
+#enviar:hover {
+    background: #665B5A;
+    cursor: pointer;
+    color: white;
+}
+#divBotao {
+    text-align: center;
+}
