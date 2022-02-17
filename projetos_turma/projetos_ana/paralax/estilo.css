@@ -1,0 +1,68 @@
+body,html{   /*  coloca o html pois assim o height 100% é aplicado em todo o documento, não só no corpo (body) */
+	margin: 0;
+	font-size: 16px "Lato",sans-serif;
+	color: #777;
+    height: 100%;  /* Ocupe 100% da altura da página */
+}
+
+.conteudo{
+	      color: #777;
+	      background-color: white;
+	      padding: 50px 80px ; /* (50px superior e inferior), 80px( esquerda e direita) */
+	      text-align: justify; /* justificado */
+ 		  
+}  
+
+h3{
+	text-transform: uppercase; /* todo cabeçalho com letra maiuscula*/
+	color: #111;
+	text-align: center;
+}
+
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+	             position: relative; /*absolute usa para fazer sobreposição */
+	             height: 100%;
+	             background-repeat: no-repeat;
+	             opacity: 0.7; /* opacidade */
+	             background-size: cover; /* imagem ocupa de toda a tela */
+	             background-position: center;
+	             background-attachment: fixed; /* imagem fica fixa,aí acontece o paralax */
+	            
+}
+
+.caixa1{
+	    background-image: url(imagens/imagem1.jpg) ;
+}
+
+.caixa2{
+	    background-image: url(imagens/imagem2.jpg);
+
+}
+.caixa3{
+	    background-image: url(imagens/imagem3.jpg);
+
+}
+.caixa4{
+	    background-image: url(imagens/imagem4.jpg);
+
+}
+
+
+.conteudo-titulo{
+	             position: absolute;
+	             left: 0;
+	             text-align: center;
+	             top: 45%;
+	             width: 100%;
+} 
+
+
+.conteudo-titulo span.titulo{
+	color: #fff;
+	background-color: #111;
+	text-transform: uppercase;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px; /* espaçamento entre as letras*/
+}  
