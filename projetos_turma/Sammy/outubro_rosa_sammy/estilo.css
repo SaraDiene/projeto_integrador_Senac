@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+	background: linear-gradient(90deg, rgba(236,219,235,1) 0%, rgba(236,219,235,0.7959558823529411) 39%, rgba(236,219,235,0.7203256302521008) 63%, rgba(255,206,252,0.6222864145658263) 100%);
+}
+
+/*inicio do topo e menu*/
+
+#topo{
+	
+	background: url(img/topo1.jpg) no-repeat left top;
+	opacity: 0.6;
+	height: 80px;
+	
+	}
+
+#remover{
+	
+   padding-left: 200px;
+		
+}
+
+body.home #navegacao a#home,
+body.informacoes #navegacao a#informacoes,
+body.depoimentos #navegacao a#depoimentos,
+body.historia #navegacao a#historia,
+body.extras #navegacao a#extras {
+	color: black;
+	background:#DDA0DD;
+	cursor: text;
+	border-radius:10px 10px ;
+	box-shadow: 3px 3px 3px 1px black;
+}
+
+/*fim do topo e menu*/
+
+
+#receba{
+	background: rgb(245,111,237);
+
+}
+
+
+#titulo{
+	background: rgb(245,111,237);
+}
+
+
+.formulario{
+	background: rgb(245,111,237);
+}
+
+.bg-depoimento{
+	background: url(img/bg-depoimento2.jpg) no-repeat ;
+
+
+}
+
+.bg-extra{
+	background: url(img/img2.jpg) no-repeat ;
+}
