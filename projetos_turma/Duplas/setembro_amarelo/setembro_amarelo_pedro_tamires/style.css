@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+     background-color:#F0E68C;
+     background-size: cover;
+ }
+
+ footer{
+     background-color:#23232e;
+     color: white;
+     font-size: 1em;
+     margin-top: 40px;
+     text-align: center;
+
+
+
+ }
+
+ #fonte-footer{
+    text-align: center;
+    display: inline-block;
+
+    
+
+ }
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* CONFIGURAÇÕES DAs IMAGENS TOPO */
+.logo {
+     font-size: 24px;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+}
+
+#area-logo{
+    position: absolute;
+    height: 150px;
+    top: 0;
+    left: 0;
+   
+}
+ #centro{
+    position: absolute;
+    margin-left: 250px;
+    top: 50;
+    left: 0; 
+ }
+
+ header{
+    background: linear-gradient( #AC5601,yellow,#AC5601);
+    height: 150px;
+ }
+/* MENU */
+ nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .nav-list{
+    display: flex;
+    list-style: none;
+    margin-left: 670px;
+    margin-top: 60px;
+ }
+
+ .nav-list li{
+    letter-spacing: 3px;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 10px;
+    font-size: 1em;
+ }
+
+ .nav-list  li a{
+
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ 
+ .nav-list li a:hover{
+    background-color:#F0E68C;
+    color: black;
+    font-weight: bold; 
+   padding: 10px;
+ }
+ 
+ .active{
+    background-color: #AC5601;
+    color: white;
+    font-weight: bold; 
+   padding: 20px;
+ }
+
+ /* CORPO DA PAGINA*/
+ section{
+     width: 70%;
+     text-align: justify;
+     font-family: Comfortaa;
+     font-weight: 500;
+     margin: auto;
+     padding: 40px;
+     background-color: white;
+     margin-top: 20px;
+     border-radius: 25px;
+     box-shadow: 3px 3px 10px #AC5601;
+     
+ }
+
+  /* caixas */
+
+  #caixa{
+    width: 250px;
+    height: 250px;
+    background: #FFFACD ;
+    margin: 10px;
+    border-radius: 50px;
+    font-family: Indie Flower;
+    box-shadow: 3px 3px 10px #AC5601;
+    display: inline-block;
+
+
+  }
+  #fonte-caixa{
+    font-family: Source Code Pro;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+
+  }
+
+  #caixa1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+
+ #motivacao{
+padding: 10px;
+font-family:Permanent Marker ;
+font-size: 2em;
+color:black ; 
+
+ }
+ 
+
+ h2{
+    font-family: 'Open Sans', sans-serif;
+    background: yellow;
+    font-size: 2.5em;
+    margin-bottom: 3px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    width: 70%;
+   margin: auto;
+
+}
+
+ p{
+padding:10px;
+font-size: 1.2em;
+font-family: Comfortaa;
+ }
+
+
+/* CAIXA VIDEO*/
+
+ #caixa-video{
+    width: 250px;
+    height: 350px;
+    background: #FFFACD ;
+    margin: auto;
+    border-radius: 30px;
+    font-family: Indie Flower;
+    box-shadow: 3px 3px 10px #AC5601;
+    display: inline-block;
+}
+
+video{
+    margin: auto;
+    margin-left: 16px;
+    margin-top: 10px;
+    height: 320px;
+}
+
+/* PARALAX*/
+.PARALAX1, .PARALAX2, .PARALAX3{
+    position: relative;
+    height: 60%;
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.PARALAX1{
+    background-image: url(imagens01/para2.jpg);
+    
+}
+
+.PARALAX2{
+    background-image: url(imagens01/para3.jpg);
+    
+}
+
+.PARALAX3{
+    background-image: url(imagens01/para5.jpg);
+    
+}
+.imagem{
+    height: 70%;
+   
+}
+
+.conteudo-titulo{
+    left: 0;
+    text-align: center;
+    background: ;
+    top: 45%;
+    width: 70%;
+    position: absolute;
+}
+
+.conteudo-titulo span.titulo{
+    color: #fff;
+    background-color: #111;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    padding: 18px;
+
+}
+
+/* FORMULARIO*/
+fieldset {
+    margin: 1em 4;
+    padding: 20px;
+    border: 2px solid #AC5601;
+    background:#FFFACD;
+    border-radius: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    font-size: 1.1em;
+}
+
+select {
+    height: 30px;
+    width: 200px;
+    font-size: 1.1em;
+}
+
+#enviar {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    font-size: 1em;
+    color: white;
+     background: #AC5601;
+    border: none;
+    border-radius: 10px;
+}
+#enviar:hover {
+    background: #23232e;
+    cursor: pointer;
+    color: white;
+}
+#divBotao {
+    text-align: center;
+}
+/* PAGINA MOVIMENTO*/
+
+.sec1{
+    position: relative;
+    padding: 100px;
+    background:url(imagens01/bol.jpg) no-repeat;
+
+}
+
+.sec1 h2{
+    font-family: 'Open Sans', sans-serif;
+    background: yellow;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    border-top: 20px;
+    z-index: 1;
+}
+
+.sec1 p{
+adding:10px;
+font-size: 1.5em;
+font-family: Comfortaa;
+font-weight: bold;
+color: black;
+z-index: 1;
+text-shadow: white 2px 1px;
+}
+
+.sec2{
+    position: relative;
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background:url(imagens01/life.jpg) no-repeat;
+
+}
+
+.sec2 h2{
+    font-family: 'Open Sans', sans-serif;
+    background: yellow;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+.sec2 p{
+adding:10px;
+font-size: 1.5em;
+font-family: Comfortaa;
+font-weight: bold;
+color:#FFFACD;
+text-shadow: black 2px 1px 2px;
+}
+
+/* CENTRAL DE AJUDA*/
+
+ .sec{
+    position: relative;
+    padding: 100px; ;
+    background: url(imagens01/paisagem.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.sec p{
+    adding:10px;
+    font-size: 1.5em;
+    font-family: Comfortaa;
+    font-weight: bold;
+    color:white;
+    text-shadow: black 2px 1px 2px;
+    }
+
+.sec h2{
+    font-family: 'Open Sans', sans-serif;
+    background: yellow;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#cvv{
+    height: 100px;
+    margin: auto;
+}

@@ -1,0 +1,225 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Indie+Flower&family=Permanent+Marker&family=Satisfy&family=Source+Code+Pro:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="normalize.css">
+    
+    <title> Formulario </title>
+</head>
+<body>
+    <header>
+        <div>
+            <a id="area-logo" href="index.html"><img src="imagens01/LOGO.png" title=" HOME"></a>
+        </div>
+        <img id="centro" src="imagens01/centro.png" title="Girassol by Winderson feat Priscila Alcantra">
+        <nav >
+            <ul class="nav-list" > 
+                <li><a href="index.html">Campanha</a></li> <img src="imagens01/barra.png"> 
+                <li><a href="movimento.html" >O Movimento</a></li> <img src="imagens01/barra.png">
+                <li><a href="formulario.html" class="active">Informe seus dados</a></li> <img src="imagens01/barra.png">
+                <li><a href="centralajuda.html" >Busque Ajuda</a></li>
+            </ul>            
+        </nav>
+
+        <main> </main>
+    </header>
+
+    <section>
+       <h2> Formulario de Pesquisa </h2>
+                <p>Este formulário é apenas para um levantamento de dados, não se preocupe, seus dados estão seguros aqui.</p>
+                <form>
+                    <fieldset> <!-- TABELA SOBRE DADOS PESSOAIS -->
+                        <legend> Dados Pessoais</legend>
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" required="required" placeholder="Digite seu Nome.">
+                            <input type="text" name="nome" id="nome" required="required" placeholder="Digite seu Sobrenome."> 
+                        </div>
+                        <br>
+                        <div>
+                            <label for="idade"> Idade:</label>
+                            <input type="text" name="nome" id="idade" required="required" placeholder="Digite sua Idade."> 
+                        </div>
+                        <br>
+                        <div>
+                            <label for="sexo">Sexo:</label>
+                            <select name="sexo">
+                                <option value="selecao"> Selecione</option>
+                                <option value="M"> Masculino</option>
+                                <option value="F"> Feminino</option>
+                                <option value="O"> Outro</option>
+                            </select> 
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" placeholder="Digite seu E-mail.">
+                        </div>
+                        <br>
+                    </fieldset> <!-- FIM -->
+                    
+                    <fieldset > <!-- ESTADOS DO PAÍS -->
+                        <legend> Endereço</legend>
+                        <div>
+                            <label for="estado">Estado:</label>
+                            <select>
+                                <option value="">Selecione</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                            </select> 
+                        </div>
+                        <br>
+                        <div>
+                            <label for="cidade"> Cidade:</label>
+                            <input name="Cidade" type="text"> 
+                        </div>
+                        <br>
+                    </fieldset> <!-- FIM -->
+
+                    
+
+                    <fieldset> <!-- SAUDE MENTAL -->
+                        <legend> Questionário</legend>
+                        <div>
+                            <label for="rede"> Você faz uso de Redes Sociais?</label>
+                            <p>
+                                <input type="radio" name="rede" value="s"> Sim <br> 
+                                <input type="radio" name="rede" value="n"> Não <br>
+                            </p>
+                        </div>
+                       
+                        <div>
+                            <label for="saude"> Você acha que as redes sociais interfere em sua saúde mental?</label> 
+                            <p>
+                                    <input type="radio" name="saude" value="n"> Acho que não <br>
+                                    <input type="radio" name="saude" value="meio"> Um pouco <br> 
+                                    <input type="radio" name="saude" value="s"> Muito <br>                                 
+                               
+                            </p>
+                        </div>
+                       
+                        <div>
+                            <label for="psi"> Você faz ou já fez algum acompanhamento psicológico?</label>
+                            <p>
+                                <input type="radio" name="psi" value="s"> Sim <br> 
+                                <input type="radio" name="psi" value="n"> Não <br>
+                            </p>
+                        </div>
+                       
+                        <div>
+                            <label for="acompanhamento"> Se sim, qual ou quais você frequenta?</label> <br>
+                                <input type="checkbox" name="selc" id="selec"> Selecione <br>
+                                <input type="checkbox" name="psico" id="psico"> Psicólogo <br>
+                                <input type="checkbox" name="psiq" id="psiq"> Psiatra<br>
+                                <input type="checkbox" name="tera" id="tera"> Terapeuta <br>
+                            <br>   
+                        </div>
+                       
+                        <div>
+                            <label for="mental"> Você se sente triste, ou angustiado com frequencia?</label>
+                            <p>
+                                <input type="radio" name="mental" value="s"> Sim <br> 
+                                <input type="radio" name="mental" value="n"> Não <br>
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <label for="mental"> Você fica ancioso para algum evento em sua vida? (como viagens, apresentação de trabalhos, ao realizar alguma atividade)</label>
+                            <p>
+                                <input type="radio" name="mental" value="s"> Sim <br> 
+                                <input type="radio" name="mental" value="n"> Não <br>
+                            </p>
+                        </div>
+                       
+                        <div>
+                            <label for="mental"> Você sofre por antecipação? (fica pensando o que pode acontecer ou não em algum evento futuro e sofre por medos criados nesses pensamento)</label>
+                            <p>
+                                <input type="radio" name="mental" value="s"> Sim <br> 
+                                <input type="radio" name="mental" value="n"> Não <br>
+                            </p>
+                        </div>
+                       
+                        <div>
+                            <label for="mental"> Você já deixou de ir em algum lugar por não se sentir bem? </label>
+                            <p>
+                                <input type="radio" name="mental" value="s"> Sim <br> 
+                                <input type="radio" name="mental" value="n"> Não <br>
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <label for="mental"> As opinões e falas das pessoas sobre você te afetam? </label>
+                            <p>
+                                <input type="radio" name="mental" value="s"> Sim <br> 
+                                <input type="radio" name="mental" value="n"> Não <br>
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <label for="mental"> Como você reage as críticas descontrutivas das pessoas? </label>
+                            <p>
+                                <input type="radio" name="mental" value="afeta">  Me afeta, altera meu humor e me deixa pra baixo <br> 
+                                <input type="radio" name="mental" value="naoafeta"> Não ligo, não dou importancia para opniões que não acrescentam em minha vida <br>
+                            </p>
+                               
+                        </div>
+                        
+                        <div>
+                            <label for="mental"> Você tem vontade de fazer algum acompanhamento psicológico? </label>
+                            <p>
+                                <input type="radio" name="mental" value="s"> Sim <br> 
+                                <input type="radio" name="mental" value="n"> Não <br>
+                            </p>
+                        <br>
+
+                    </fieldset> 
+            
+                       
+                </form> <!-- FINAL DA SECTION / FORMULARIO -->
+
+                <div id="divBotao"> <!-- BOTÃO -->
+                    <button id="enviar">Enviar Formulário</button>
+                </div>
+    </section>
+
+
+<footer>
+   <div >
+      
+        <di><p id="fonte-footer"> Desenvolvedores: Pedro Augusto Oliveira Rocha & Tamires Suele Lima <br> <br>  &copy;   2021 </p> 
+            
+    </div>
+   
+
+
+</footer>
+</body>
+</html>

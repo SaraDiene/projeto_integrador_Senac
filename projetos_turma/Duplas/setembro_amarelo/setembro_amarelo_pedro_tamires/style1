@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+ nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+     background:#23232e ;
+     height: 8vh;
+ }
+ 
+ main{
+     background: url(imagens01/bol.jpg) no-repeat center center;
+     background-size: cover;
+     height: 92vh;
+ }
+ 
+ .nav-list{
+     list-style: none;
+     display: flex;
+ }
+ .nav-list li{
+     letter-spacing: 3px;
+     margin-left: 20px;
+     text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 20px;
+ }
+ .nav-list  li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+ }
+ .nav-list a:hover{
+    background-color: #fff;
+    color: black;
+ }
+ section{
+     width: 100%;
+     height: 400px;
+     text-align: center;
+     padding: 40 4%;
+     font-family: roboto;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+ }
+ .sec{
+    position: relative;
+    padding: 100px; ;
+    background: url(imagens01/paisagem.jpg);
+    background-size: cover;
+    height: 92vh;
+}
+.sec p{
+    font-size: 1.2em;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sec1{
+    position: relative;
+    padding: 100px; ;
+    background:url(imagens01/yellow.jpg) ;
+}
+.sec h2{
+    font-family: 'Open Sans', sans-serif;
+    background: yellow;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+.sec1 h2{
+    font-family: 'Open Sans', sans-serif;
+    background: yellow;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+.sec1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+}
+section.paralax{
+    height: 500px;
+    background: url(imagens01/ballon.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.paralax h1{
+    color: black;
+    font: 50px Arial;
+}
+.paralax p{
+    color: black;
+    font: 20px Arial;
+    padding-bottom: 45px;
+}
+a.botão{
+    color: black;
+    background: #fff;
+    padding: 20px 30px;
+    font: 18px Arial;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.botão :hover{
+    background: gray;
+    color: black;
+}
+.box-conteudo{
+    width: 80%;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+.box-conteudo h1{
+    font: 40px Arial;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.box-conteudo p{
+    font: 16px Arial;
+    padding-bottom: 10px ;
+}
+#section1{
+    background: url(imagens01/bol.jpg);
+    height: 500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
