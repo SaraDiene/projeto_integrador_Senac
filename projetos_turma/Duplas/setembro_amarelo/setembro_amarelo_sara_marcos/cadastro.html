@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Setembro Amarelo</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="normalize1.css">
+	<link rel="shortcut icon" type="imagex.png" href="imagem/icone.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div id="container"><!--inicio container-->
+				<div id="cabecalho"><!--inicio cabecalho-->
+					<h1>Setembro Amarelo</h1>
+					<div id="navegacao">
+						<ul>
+							<li><a id="home" href="index.html">Home |</a></li>
+							<li><a id="historia" href="historia.html">Historia |</a></li>
+							<li><a id="dados" href="dados.html">Dados |</a></li>
+							<li><a id="busque" href="busque.html">Busque ajuda |</a></li>
+							<li><a id="conversar" href="conversar.html">Quer conversar?</a></li>
+
+						</ul>		
+
+					</div>
+				</div><!--fim cabecalho-->
+			<div class="limpar"></div>
+
+		<div id="conteudo-historia"><!--inicio conteudo-->
+			<h2>Realize agora seu cadastro:</h2>
+			<form method="phost" action="envio.php">
+				<fieldset>
+
+					<legend>Informações Pessoais:</legend>
+					<div>
+					<label>Nome:</label>
+				    <input type="text" name="nome" placeholder="Digite seu nome completo">
+				    </div>
+				    <div>
+				    <label>Sexo:</label>
+				    <input type="radio" id="Masculino" name="genero" value="M">Masculino
+     				<input type="radio" id="Feminino" name="genero" value="f">Feminino
+     				<input type="radio" id="Não-informado" name="genero" value="N">Não Informado
+				    
+				    </div>
+				    <div>
+				    <label>CPF:</label>
+				    <input type="text" name="cpf" placeholder="digite seu CPF aqui">
+				    </div>
+				    <div>
+				    <label>E-mail:</label>
+			    	<input type="e-mail" name="email" placeholder="Digite seu e-mail">
+			    	</div>
+			    </fieldset>
+			    <br><br>
+				 <fieldset>   
+				    <legend>Endereço:</legend>
+				    <div>
+					    <label>Logradouro:</label>
+					    <input type="text" name="rua" placeholder="Rua">
+				    </div>
+				    <div>
+					    <label>Numero::</label>
+					    <input type="text" name="numero" placeholder="Numero da residencia">
+				    </div>
+				    <div>
+					    <label>Complemento:</label>
+					    <input type="text" name="complemento" placeholder="Complemento">
+				    </div>
+				    <div>
+					    <label>Bairro:</label>
+					    <input type="text" name="bairro" placeholder="Bairro">
+				    </div>
+				    <div>
+					    <label>CEP:</label>
+					    <input type="text" name="cep" placeholder="CEP">
+				    </div>
+				    <div>
+					    <label>Cidade:</label>
+					    <input type="text" name="city" placeholder="Nome da Cidade">
+			    	</div>
+			    </fieldset>
+
+			    <input class="botaoform" type="submit" name="enviar" value="Cadastrar"><br><br><br> 
+			</form>
+
+
+		</div><!--fim conteudo-->
+	</div>
+<div class="content">
+</div>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="home.html"> Setembro Amarelo </a></h2>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Inicio</h5>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="busque.html">Busque Ajuda</a></li>
+                        <li><a href="">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Sobre-nós</h5>
+                    <ul>
+                        <li><a href="">Desenvolvedores</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li><a href="">Instagran</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Suporte</h5>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Telefones</a></li>
+                        <li><a href="conversar.html">Chat</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <a href="https://programadorviking.com.br/">
+                        <button type="button" class="btn btn-default">Contato</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2021 Copyright - Programador web senac Diamantina</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
