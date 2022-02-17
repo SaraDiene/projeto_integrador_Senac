@@ -1,0 +1,408 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: RomelioSans;
+	src: url("RomelioSans.woff");
+}
+
+#container{
+	width:100%;
+	height: 100%;
+	background: rgb(237,231,103) url(img/fundo2.jpg) center repeat-y;
+}
+
+#topo{
+	display: flex;
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	margin: 0 auto;
+	background: url(img/topo2.jpg) center no-repeat ;
+	z-index: 1;
+}
+
+#logo a{
+	display: flex;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 120px;
+	position: absolute;
+	background: url(img/logo1.png) no-repeat;
+	text-indent: -9000px;
+	z-index: 2;
+}
+
+#menu{
+	width: 100%;
+	margin-top: 250px;
+	background: black;
+
+}
+
+
+
+#menu ul{
+background: linear-gradient(90deg, rgba(237,231,103,1) 0%, rgba(240,245,113,0.7483368347338936) 32%, rgba(228,241,70,0.7147233893557423) 63%, rgba(237,231,103,1) 100%);	display: flex;
+	justify-content: center;
+	margin-left: 0px;
+	
+}
+
+#menu ul li{
+	float: left;
+	list-style-type: none;
+
+}
+
+#menu ul a{
+	font-family: RomelioSans;
+	font-size: 1.5em;
+	display: flex;
+	padding: 0.5em 1em;
+	color: #111;
+	line-height: 1.4em;
+	text-decoration: none;
+	background: url(img/back.jpeg) no-repeat left center;
+	
+
+}
+
+#menu ul .primeiro a{
+	background: none;
+}
+
+#menu ul a:hover{
+	color: #B8860B	;
+}
+
+body.home #navegacao a#home,
+body.ajuda #navegacao a#ajuda,
+body.noticias #navegacao a#noticias,
+body.ouvir #navegacao a#ouvir {
+	color: #fff;
+background:#DAA520;
+cursor: text;
+}
+
+.caixa1, .caixa2,.caixa3{
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+	height: 950px;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	}
+
+.caixa1{
+	background-image: url(img/imagem1.jpg) ;
+}
+
+.caixa2{
+	background-image: url(img/imagem2.jpg);
+}
+
+.caixa3{
+	background-image: url(img/imagem3.jpg);
+}
+
+#primario-parallax{
+	margin-top: 350px;
+}
+
+.conteudo-parallax{
+	width: 950px;
+	margin: 0 auto;
+	color: #B8860B	;
+	padding: 50px 80px;
+	text-align: justify;
+}
+
+.conteudo-parallax p{
+	font-family: RomelioSans;
+	font-size: 1.6em;
+	padding: 2px;
+	color: black;
+}
+
+.conteudo-parallax a{
+	font-family: RomelioSans ;
+	font-size: 2em;
+	color: black;
+	background: #EEDD82 ;
+	text-align: center;
+	text-decoration: none;
+
+
+
+}
+
+.conteudo-parallax a:hover{
+	background: #B8860B	;
+}
+
+.conteudo-parallax h3{
+	font-family: RomelioSans;
+	font-size: 1.9em;
+	text-align: center;
+	background: #EEDD82;
+}
+
+#rodape{
+	margin: 0 auto;
+	color: #111;
+	text-align: center;
+	font-family: RomelioSans ;
+	font-size:3em;
+
+}
+
+#container-rodape{
+background: linear-gradient(90deg, rgba(237,231,103,1) 0%, rgba(240,245,113,0.7483368347338936) 32%, rgba(228,241,70,0.7147233893557423) 63%, rgba(237,231,103,1) 100%);	display: flex;
+padding: 20px;
+
+}
+
+/*pagina ajuda*/
+
+#primario{
+	padding: 10px;
+	margin-left: 100px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items:flex-start ;/*stretch center flex-end baseline*/
+	
+}
+
+.caixa-conteudo{
+	width: 300px;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.caixa-conteudo h3{
+	background-color: #EEDD82;
+	color: #fff;
+	padding: 5px;
+}
+
+.caixa{
+	width: 350px;
+	background: url(img/textura.jpg);
+	margin: 15px 10px 10px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	
+}
+
+img.imagem-principal {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+.caixa-conteudo p{
+	margin-top: 10px;
+	font-family: RomelioSans ;
+	font-size: 1em;
+}
+
+#secundario{
+	padding: 10px;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items:flex-start ;/*stretch center flex-end baseline*/
+}
+
+
+
+@keyframes anime{
+	from{
+		background-image: url(img/topo1.jpg) ;
+		width: 160px;
+		height: 200px;
+		left: 80px;
+
+	}
+
+
+	to{
+		background-image: url(img/alegria.jpg) ;
+	width: 160px;
+		height: 200px;
+		left: 900px;
+	}
+}
+
+
+#anime{
+	margin-left: 150px;
+   background: url(img/topo1.jpg)  no-repeat;
+	width: 160px;
+	height: 200px;
+	margin-top: 20px;
+	position: relative;
+	animation-name: anime;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: 1000;
+	box-shadow: 1px 2px 5px  black;
+
+}
+
+#tema{
+	width: 1140px;
+	margin-left: 106px;
+	background: #EEDD82 ;
+	margin-top: 300px;
+	font-family: RomelioSans ;
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 2em;
+}
+
+/*noticias*/
+
+table{
+	width: 950px;
+	border-collapse: separate;
+	margin: 0 auto;
+	margin-top: 300px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: black;
+	font-family:RomelioSans ;
+
+}
+
+#tabela{
+
+padding: 20px;
+
+}
+
+tr, td{
+	/*border: 2px solid skyblue;*/
+	padding: 40px;
+}
+
+td.borda{
+	
+	text-align: center;
+	font-size: 90%;
+	background: #8888;
+	letter-spacing: 0.1em;
+}
+
+tr.alternada{
+	background-color: #FFC125
+;
+	
+}
+
+tr.alternada2{
+	background-color: #EEDD82
+;
+}
+
+.numero{
+	text-align: center;
+}
+
+tr:hover{
+	background-color: #CD950C;
+}
+
+img.img{
+	width: 100%;
+	max-width: 900px;
+}
+
+td a{
+	margin: 0;
+	padding:2px;
+	line-height: 2em;
+	text-decoration: none;
+	background: #8ec3c3;
+	color: #111;
+	font-size: 1.2em;
+	text-align: center;
+
+}
+
+
+/* formulário*/
+
+form{
+	
+	margin-top: 30px;
+	width: 600px;
+
+}
+
+#formulario{
+	
+	margin-left: 400px;
+}
+
+input{
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border: none;
+	font-size: 1em;
+}
+
+
+
+input.botao{
+	background: black;
+	color: white;
+	width: 200px
+	height: 40px;
+	font-size: 1em;
+	margin-left: 500px;
+	float: center;
+}
+
+fieldset{
+	border: none;
+}
+
+legend{
+	display: none;
+}
+
+input.texto{
+	background: gold;
+	color: black;
+	width: 200px;
+}
+
+select{
+	width: 200px;
+}
+
+header h3{
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 300px;
+	font-family:RomelioSans ;
+	font-size: 1.2em;
+}
